@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "CodeDemoBold";
+  src: url(../fonts/CodeDemo-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "CodeDemoLight";
+  src: url(../fonts/CodeDemo-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "PantonNarrowBlack";
+  src: url(../fonts/PantonNarrowDemo-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "PantonNarrowLight";
+  src: url(../fonts/PantonNarrowDemo-Light.otf) format("opentype");
+}
+/* PAGE D'ACCUEIL BEGIN*/
+#header {
+  /* PARALAX */
+  background-image: url('../img/accueil.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* PAGE D'ACCUEIL END*/
+/* BARRE DE NAVIGATION BEGIN*/
+
+/* BARRE DE NAVIGATION END*/
+/* PARCOURS BEGIN*/
+#parcours {
+  height: 1000px;
+  background: #f8f8f8;
+}
+/* PARCOURS END*/
+/* COMPTETENCES BEGIN*/
+#competences {
+  height: 1000px;
+  background: #f0f0f0;
+}
+/* COMPTETENCES END*/
+/* PROJET BEGIN*/
+#projet {
+  height: 1000px;
+  background: #f8f8f8;
+}
+/* PROJET END*/
+/* CONTACT BEGIN*/
+#contact {
+  height: 1000px;
+  background: #f0f0f0;
+}
+/* CONTACT END*/
