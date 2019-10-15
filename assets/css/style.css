@@ -26,7 +26,7 @@ html, body  {
   flex-wrap: nowrap;
 }
 #titre-navigation span {
-  font-size: 110%;
+  font-size: 125%;
   position: relative;
 }
 #lists-hidden {
@@ -40,26 +40,30 @@ html, body  {
   margin-right: 9%;
 }
 /* BARRE DE NAVIGATION END */
-/* PAGE D'ACCUEIL BEGIN*/
+/* ACCUEIL BEGIN*/
 #header {
   height: 100%;
   width: 100%;
   background-image: url('../img/accueil.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
-/* PAGE D'ACCUEIL END*/
-/* PARCOURS BEGIN*/
-#parcours {
-  height: 1000px;
-  background: #f8f8f8;
-}
-/* PARCOURS END*/
+/* ACCUEIL END*/
 /* COMPTETENCES BEGIN*/
 #competences {
-  height: 1000px;
+  height: 500px;
   background: #f0f0f0;
+  border-top: 15px solid #343a40;
+}
+.card img {
+  height: 80px;
+  width: 80px;
+  margin-right: 5%;
+}
+.card-title {
+  font-size: 140%;
+  font-weight: bolder;
 }
 /* COMPTETENCES END*/
 /* PROJET BEGIN*/

@@ -8,22 +8,22 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body class="container-fluid p-0">
-  <!-- BARRE DE NAVIGATION -->
+  <!-- BARRE DE NAVIGATION BEGIN-->
   <div class="fixed-top navbar-light">
     <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1">
       <div class="container-fluid text-center p-0" id="titre-navigation">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <span class="m-auto text-white col-sd">Parcours</span>
+        <span class="m-auto text-white col-sd">Accueil</span>
         <span class="m-auto text-white col-sd">Compétences</span>
         <span class="m-auto text-white col-sd">Projet</span>
         <span class="m-auto text-white col-sd">Contact</span>
       </div>
       <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
         <div class="container-fluid d-inline-flex m-0 text-center" id="lists-hidden">
-          <!-- Parcours Begin -->
-          <span class="navbar-nav m-auto col-sd-3 p-0">
+          <!-- Acceuil Begin -->
+          <div class="navbar-nav m-auto col-sd-3 p-0">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </p>
@@ -33,10 +33,10 @@
             <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
             </p>
-          </span>
-          <!-- Parcours End -->
+          </div>
+          <!-- Accueil End -->
           <!-- Compétences Begin -->
-          <span class="navbar-nav m-auto col-sd-3 p-0">
+          <div class="navbar-nav m-auto col-sd-3 p-0">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </p>
@@ -46,10 +46,10 @@
             <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
             </p>
-          </span>
+          </div>
           <!-- Compétences End -->
           <!-- Projets Begin -->
-          <span class="navbar-nav m-auto col-sd-3" id="projet-list">
+          <div class="navbar-nav m-auto col-sd-3" id="projet-list">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </p>
@@ -59,10 +59,10 @@
             <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
             </p>
-          </span>
+          </div>
           <!-- Projets End -->
           <!-- Contact Begin -->
-          <span class="navbar-nav ml-auto col-sd-3 p-0" id="contact-right">
+          <div class="navbar-nav ml-auto col-sd-3 p-0" id="contact-right">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </p>
@@ -72,20 +72,42 @@
             <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
             </p>
-          </span>
+          </div>
           <!-- Contact End -->
         </div><hr z="container-display">
       </div><hr z="dropdown-content">
     </nav>
   </div>
-  <!-- BARRE DE NAVIGATION -->
-  <!-- ACCUEIL -->
+  <!-- BARRE DE NAVIGATION END-->
+  <!-- ACCUEIL BEGIN-->
   <div id="header" class="m-0 p-0">
   </div>
-  <!-- ACCUEIL -->
-  <div id="parcours">
-  </div>
-  <div id="competences">
+  <!-- ACCUEIL END-->
+  <div id="competences" class="container-fluid d-flex">
+    <div class="card-deck align-self-center w-100">
+      <div class="card">
+        <div class="card-body text-center p-2">
+          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
+          <hr/>
+          <p class="border2 card-text m-0">HTML 5 / CSS 3</p>
+          <p class="border2 m-0">Responsive Web Design</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body text-center p-2">
+          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166823.svg" alt="back-end-icon">Back End</div>
+          <hr/>
+          <p class="border2 card-text m-0">Lignes de commandes Linux</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body text-center p-2">
+          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
+          <hr/>
+          <p class="border2 card-text m-0">Anglais C1</p>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="projet">
   </div>
