@@ -3,91 +3,84 @@
 <head>
   <title>CV</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body class="container-fluid p-0">
   <!-- BARRE DE NAVIGATION -->
   <div class="fixed-top navbar-light">
     <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1">
-      <div class="container-fluid text-center p-0">
+      <div class="container-fluid text-center p-0" id="titre-navigation">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <span class="m-auto text-white col">Accueil</span>
-        <span class="m-auto text-white col">Parcours</span>
-        <span class="m-auto text-white col">Compétences</span>
-        <span class="m-auto text-white col">Projet</span>
-        <span class="m-auto text-white col">Contact</span>
+        <span class="m-auto text-white col-sd">Parcours</span>
+        <span class="m-auto text-white col-sd">Compétences</span>
+        <span class="m-auto text-white col-sd">Projet</span>
+        <span class="m-auto text-white col-sd">Contact</span>
       </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="container mr-0 p-0">
-        <div class="row">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
+      <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
+        <div class="container-fluid d-inline-flex m-0 text-center" id="lists-hidden">
+          <!-- Parcours Begin -->
+          <span class="navbar-nav m-auto col-sd-3 p-0">
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
+            </p>
+          </span>
+          <!-- Parcours End -->
+          <!-- Compétences Begin -->
+          <span class="navbar-nav m-auto col-sd-3 p-0">
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
+            </p>
+          </span>
+          <!-- Compétences End -->
+          <!-- Projets Begin -->
+          <span class="navbar-nav m-auto col-sd-3" id="projet-list">
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
+            </p>
+          </span>
+          <!-- Projets End -->
+          <!-- Contact Begin -->
+          <span class="navbar-nav ml-auto col-sd-3 p-0" id="contact-right">
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
+            </p>
+            <p class="nav-item m-0">
               <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </div>
+            </p>
+          </span>
+          <!-- Contact End -->
+        </div><hr z="container-display">
+      </div><hr z="dropdown-content">
     </nav>
   </div>
   <!-- BARRE DE NAVIGATION -->
   <!-- ACCUEIL -->
-  <div id="header">
-    <img src="./assets/img/accueil.jpg" class="img-fluid" alt="background image">
+  <div id="header" class="m-0 p-0">
   </div>
   <!-- ACCUEIL -->
   <div id="parcours">

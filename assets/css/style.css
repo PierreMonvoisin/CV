@@ -2,6 +2,9 @@ html, body  {
   width: 100%;
   height: 100%;
 }
+[z] {
+  display: none;
+}
 @font-face {
   font-family: "CodeDemoBold";
   src: url(../fonts/CodeDemo-Bold.otf) format("opentype");
@@ -18,10 +21,33 @@ html, body  {
   font-family: "PantonNarrowLight";
   src: url(../fonts/PantonNarrowDemo-Light.otf) format("opentype");
 }
+/* BARRE DE NAVIGATION BEGIN */
+#titre-navigation {
+  flex-wrap: nowrap;
+}
+#titre-navigation span {
+  font-size: 110%;
+  position: relative;
+}
+#lists-hidden {
+  padding-left: 65px;
+  padding-right: 0;
+}
+#projet-list {
+  padding-left: 30px;
+}
+#contact-right {
+  margin-right: 9%;
+}
+/* BARRE DE NAVIGATION END */
 /* PAGE D'ACCUEIL BEGIN*/
 #header {
   height: 100%;
   width: 100%;
+  background-image: url('../img/accueil.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /* PAGE D'ACCUEIL END*/
 /* PARCOURS BEGIN*/
