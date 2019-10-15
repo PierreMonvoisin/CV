@@ -28,9 +28,14 @@ html, body  {
 #titre-navigation span {
   font-size: 125%;
   position: relative;
+  margin-top: 0 !important;
+}
+.navbar-toggler div{
+  height: 30px !important;
+  width: 30px !important;
 }
 #lists-hidden {
-  padding-left: 65px;
+  padding-left: 40px;
   padding-right: 0;
 }
 #projet-list {
@@ -52,7 +57,8 @@ html, body  {
 /* ACCUEIL END*/
 /* COMPTETENCES BEGIN*/
 #competences {
-  height: 500px;
+  height: auto;
+  min-height: 500px;
   background: #f0f0f0;
   border-top: 15px solid #343a40;
 }

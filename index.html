@@ -10,10 +10,10 @@
 <body class="container-fluid p-0">
   <!-- BARRE DE NAVIGATION BEGIN-->
   <div class="fixed-top navbar-light">
-    <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1">
-      <div class="container-fluid text-center p-0" id="titre-navigation">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1 pb-0">
+      <div class="container-fluid d-flex text-center p-0" id="titre-navigation">
+        <button class="navbar-toggler px-1 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div><img src="https://image.flaticon.com/icons/svg/148/148790.svg" alt="menu"></div>
         </button>
         <span class="m-auto text-white col-sd">Accueil</span>
         <span class="m-auto text-white col-sd">Compétences</span>
@@ -89,22 +89,26 @@
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
           <hr/>
-          <p class="border2 card-text m-0">HTML 5 / CSS 3</p>
-          <p class="border2 m-0">Responsive Web Design</p>
+          <div class="list-group">
+            <a class="list-group-item list-group-item-warning">HTML 5 / CSS 3</a>
+            <a class="list-group-item list-group-item-warning">Responsive Web Design</a>
+          </div>
         </div>
       </div>
       <div class="card">
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166823.svg" alt="back-end-icon">Back End</div>
           <hr/>
-          <p class="border2 card-text m-0">Lignes de commandes Linux</p>
+          <a class="list-group-item list-group-item-success">Lignes de commandes Linux</a>
         </div>
       </div>
       <div class="card">
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
           <hr/>
-          <p class="border2 card-text m-0">Anglais C1</p>
+          <a class="list-group-item list-group-item-info">Anglais C1</a>
+          <a class="list-group-item list-group-item-info">Méthode Agile</a>
+          <a class="list-group-item list-group-item-info">Scrum Master</a>
         </div>
       </div>
     </div>
