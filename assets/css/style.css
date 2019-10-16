@@ -22,10 +22,15 @@ html, body  {
   src: url(../fonts/PantonNarrowDemo-Light.otf) format("opentype");
 }
 /* BARRE DE NAVIGATION BEGIN */
+@media only screen and (max-width: 500px) {
+  #buttonNav {
+    display: none;
+  }
+}
 #titre-navigation {
   flex-wrap: nowrap;
 }
-#titre-navigation span {
+#titre-navigation label {
   font-size: 125%;
   position: relative;
 }
@@ -39,9 +44,6 @@ html, body  {
 }
 #projet-list {
   padding-left: 30px;
-}
-#contact-right {
-  margin-right: 9%;
 }
 /* BARRE DE NAVIGATION END */
 /* ACCUEIL BEGIN*/
@@ -61,12 +63,12 @@ html, body  {
   background: #f0f0f0;
   border-top: 15px solid #343a40;
 }
-.card-title img {
+#competences .card-title img {
   height: 80px;
   width: 80px;
   margin-right: 5%;
 }
-.card-title {
+#competences .card-title {
   font-size: 140%;
   font-weight: bolder;
 }

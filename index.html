@@ -10,22 +10,22 @@
 <body class="container-fluid p-0">
   <!-- BARRE DE NAVIGATION BEGIN-->
   <div class="fixed-top navbar-light">
-    <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1 pb-0">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1">
       <div class="container-fluid d-flex text-center p-0" id="titre-navigation">
-        <button class="navbar-toggler px-1 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler px-1 border-0" id="buttonNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <img src="https://image.flaticon.com/icons/svg/148/148790.svg" alt="menu">
         </button>
-        <span class="m-auto text-white col-sd">Accueil</span>
-        <span class="m-auto text-white col-sd">Compétences</span>
-        <span class="m-auto text-white col-sd">Projets</span>
-        <span class="m-auto text-white col-sd">Contact</span>
+        <label for="buttonNav" class="m-auto text-white col-sd">Accueil</label>
+        <label for="buttonNav" class="m-auto text-white col-sd">Compétences</label>
+        <label for="buttonNav" class="m-auto text-white col-sd">Projets</label>
+        <label for="buttonNav" class="m-auto text-white col-sd">Contact</label>
       </div>
       <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
         <div class="container-fluid d-inline-flex m-0 text-center" id="lists-hidden">
           <!-- Acceuil Begin -->
           <div class="navbar-nav m-auto col-sd-3 p-0">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
@@ -38,20 +38,20 @@
           <!-- Compétences Begin -->
           <div class="navbar-nav m-auto col-sd-3 p-0">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#competences">Front End</a>
+            </p>
+            <p class="nav-link m-0">
+              <a class="nav-link" href="#competences">Back End</a>
             </p>
             <p class="nav-item m-0">
-              <a class="nav-link" href="#">Link</a>
-            </p>
-            <p class="nav-item m-0">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#competences">Extra</a>
             </p>
           </div>
           <!-- Compétences End -->
           <!-- Projets Begin -->
           <div class="navbar-nav m-auto col-sd-3" id="projet-list">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
@@ -64,7 +64,7 @@
           <!-- Contact Begin -->
           <div class="navbar-nav ml-auto col-sd-3 p-0" id="contact-right">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Link</a>
@@ -115,13 +115,13 @@
     </div>
   </div>
   <div id="projet" class="container-fluid p-1">
-    <span class="row">
-      <h1 class="w-100 m-0 text-center align-self-center text-white">Projets</h1>
-    </span>
+    <h1 class="row">
+      <span class="w-100 m-0 text-center align-self-center text-white">Projets</span>
+    </h1>
     <div class="card-columns row-fluid px-2 text-center w-100">
       <div class="card col">
         <div class="card-header">
-          Site vitrine StartUp Week-End à La Manu Amiens.
+          Site vitrine StartUp Week-End à Amiens.
         </div>
         <a href="https://la-manu-amiens-promo-3.github.io/PierreM-SiteVitrine-StartUp/" target="_blank" class="stretched-link"></a>
         <img class="card-img-bottom" src="./assets/img/startupWEsite.png" alt="Startup-Weekend-Website">
@@ -132,25 +132,31 @@
       </div>
       <div class="card col">
         <div class="card-header">
+          Projet en cours
+        </div>
+        <a href="https://github.com/PierreMonvoisin" target="_blank" class="stretched-link"></a>
+        <div class="card-footer">
+          <span class="badge badge-pill"></span>
+        </div>
+      </div>
+      <!-- EN ATTENTE -->
+
+      <!-- <div class="card col">
+        <div class="card-header">
           Titre
         </div>
-        <div class="card-body">
+        <div class="card-footer">
         </div>
       </div>
       <div class="card col">
         <div class="card-header">
           Titre
         </div>
-        <div class="card-body">
+        <div class="card-footer">
         </div>
-      </div>
-      <div class="card col">
-        <div class="card-header">
-          Titre
-        </div>
-        <div class="card-body">
-        </div>
-      </div>
+      </div> -->
+
+      <!-- EN ATTENTE -->
     </div>
   </div>
   <div id="contact">
