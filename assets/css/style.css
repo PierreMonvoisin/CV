@@ -42,8 +42,14 @@ html, body  {
   padding-left: 40px;
   padding-right: 0;
 }
+#contact-right {
+  margin: auto;
+}
 #projet-list {
-  padding-left: 30px;
+  padding-left: 2%;
+}
+.fixed-top nav {
+  max-width: 100% !important;
 }
 /* BARRE DE NAVIGATION END */
 /* ACCUEIL BEGIN*/
@@ -88,6 +94,9 @@ html, body  {
 }
 #competences .card-footer span {
   padding: 100%;
+}
+.card-border-width {
+  border-width: 5px;
 }
 /* PROJET END*/
 /* CONTACT BEGIN*/
