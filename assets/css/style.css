@@ -77,11 +77,15 @@ html, body  {
   background: #484848;
   border-top: 5px solid #343a40;
 }
-#projet .card {
-  max-width: 25vw;
+#projet h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-#projet .card-columns {
-  margin-top: 1%;
+#projet .card-header {
+  font-weight: bolder;
+}
+#competences .card-footer span {
+  padding: 100%;
 }
 /* PROJET END*/
 /* CONTACT BEGIN*/
