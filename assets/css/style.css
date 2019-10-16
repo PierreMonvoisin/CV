@@ -28,9 +28,8 @@ html, body  {
 #titre-navigation span {
   font-size: 125%;
   position: relative;
-  margin-top: 0 !important;
 }
-.navbar-toggler div{
+.navbar-toggler img{
   height: 30px !important;
   width: 30px !important;
 }
@@ -62,7 +61,7 @@ html, body  {
   background: #f0f0f0;
   border-top: 15px solid #343a40;
 }
-.card img {
+.card-title img {
   height: 80px;
   width: 80px;
   margin-right: 5%;
@@ -74,13 +73,21 @@ html, body  {
 /* COMPTETENCES END*/
 /* PROJET BEGIN*/
 #projet {
-  height: 1000px;
-  background: #f8f8f8;
+  height: auto;
+  background: #484848;
+  border-top: 5px solid #343a40;
+}
+#projet .card {
+  max-width: 25vw;
+}
+#projet .card-columns {
+  margin-top: 1%;
 }
 /* PROJET END*/
 /* CONTACT BEGIN*/
 #contact {
   height: 1000px;
   background: #f0f0f0;
+  border-top: 5px solid #343a40;
 }
 /* CONTACT END*/
