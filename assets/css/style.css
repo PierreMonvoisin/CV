@@ -26,6 +26,9 @@ html, body  {
   #buttonNav {
     display: none;
   }
+  #lists-hidden {
+    padding-left: 0px !important;
+  }
 }
 #titre-navigation {
   flex-wrap: nowrap;
