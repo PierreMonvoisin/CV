@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
+
   <title>CV</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 <body class="container-fluid p-0">
+
   <!-- BARRE DE NAVIGATION BEGIN-->
-  <div class="fixed-top navbar-light">
+  <div class="fixed-top navbar-light" id="NavBar">
     <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1">
       <div class="container-fluid d-flex text-center p-0" id="titre-navigation">
         <button class="navbar-toggler px-1 border-0" id="buttonNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,15 +77,17 @@
             </p>
           </div>
           <!-- Contact End -->
-        </div><hr z="container-display">
-      </div><hr z="dropdown-content">
+        </div>
+      </div>
     </nav>
   </div>
   <!-- BARRE DE NAVIGATION END-->
+
   <!-- ACCUEIL BEGIN-->
   <div id="header" class="m-0 p-0">
   </div>
   <!-- ACCUEIL END-->
+  <!-- COMPETENCES BEGIN -->
   <div id="competences" class="container-fluid flex-wrap d-flex">
     <h1 class="w-100 text-center align-self-center">Compétences</h1>
     <div class="card-deck align-self-center w-100">
@@ -114,6 +119,9 @@
       </div>
     </div>
   </div>
+  <!-- COMPETENCES END -->
+
+  <!-- PROJET BEGIN -->
   <div id="projet" class="container-fluid p-1">
     <h1 class="row">
       <span class="w-100 m-0 text-center align-self-center text-white">Projets</span>
@@ -159,9 +167,18 @@
       <!-- EN ATTENTE -->
     </div>
   </div>
+  <!-- PROJET END -->
   <div id="contact">
   </div>
-  <footer>
+
+  <footer class="text-center">
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary">Politique de confidentialité</button>
+      <button type="button" class="btn btn-dark">Informations Personnelles</button>
+    </div>
+
+
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

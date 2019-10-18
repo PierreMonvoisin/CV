@@ -1,9 +1,9 @@
 html, body  {
-  width: 100%;
+  max-width: 100vw;
   height: 100%;
 }
-[z] {
-  display: none;
+body {
+  max-width: 100%;
 }
 @font-face {
   font-family: "CodeDemoBold";
@@ -22,6 +22,9 @@ html, body  {
   src: url(../fonts/PantonNarrowDemo-Light.otf) format("opentype");
 }
 /* BARRE DE NAVIGATION BEGIN */
+#NavBar {
+  max-width: 100%
+}
 @media only screen and (max-width: 500px) {
   #buttonNav {
     display: none;
@@ -109,3 +112,9 @@ html, body  {
   border-top: 5px solid #343a40;
 }
 /* CONTACT END*/
+/* FOOTER BEGIN */
+footer {
+  border-top: 5px solid #343a40;
+  background: #f0f0f0;
+}
+/* FOOTER END */
