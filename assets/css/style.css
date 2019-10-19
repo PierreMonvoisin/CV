@@ -153,4 +153,7 @@ footer {
 footer .btn-toolbar {
   font-family: "CodeDemoBold";
 }
+.modal-body p {
+  text-align: justify;
+}
 /* FOOTER END */
