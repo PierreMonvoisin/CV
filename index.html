@@ -2,7 +2,7 @@
 <html lang="fr" dir="ltr">
 <head>
 
-  <title>CV</title>
+  <title>CV Pierre Monvoisin</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,7 +26,7 @@
       <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
         <div class="container-fluid d-inline-flex m-0 text-center" id="lists-hidden">
           <!-- Acceuil Begin -->
-          <div class="navbar-nav m-auto col-sd-3 p-0">
+          <div class="navbar-nav m-auto col-sd-3 p-0 screen-display">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home</a>
             </p>
@@ -39,7 +39,7 @@
           </div>
           <!-- Accueil End -->
           <!-- Compétences Begin -->
-          <div class="navbar-nav m-auto col-sd-3 p-0">
+          <div class="navbar-nav m-auto col-sd-3 p-0 screen-display">
             <p class="nav-item m-0">
               <a class="nav-link" href="#competences">Front End</a>
             </p>
@@ -52,7 +52,7 @@
           </div>
           <!-- Compétences End -->
           <!-- Projets Begin -->
-          <div class="navbar-nav m-auto col-sd-3" id="projet-list">
+          <div class="navbar-nav m-auto col-sd-3 screen-display" id="projet-list">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home</a>
             </p>
@@ -65,7 +65,7 @@
           </div>
           <!-- Projets End -->
           <!-- Contact Begin -->
-          <div class="navbar-nav ml-auto col-sd-3 p-0" id="contact-right">
+          <div class="navbar-nav ml-auto col-sd-3 p-0 screen-display" id="contact-right">
             <p class="nav-item m-0">
               <a class="nav-link" href="#">Home</a>
             </p>
@@ -77,6 +77,22 @@
             </p>
           </div>
           <!-- Contact End -->
+          <!-- MOBILE SCREEN DISPLAY BEGIN -->
+          <div class="navbar-nav mx-auto text-center mobile-display">
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#header">Accueil</a>
+            </p>
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#competences">Compétences</a>
+            </p>
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#projet">Projets</a>
+            </p>
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#contact">Contact</a>
+            </p>
+          </div>
+          <!-- MOBILE SCREEN DISPLAY END -->
         </div>
       </div>
     </nav>
@@ -87,10 +103,12 @@
   <div id="header" class="m-0 p-0">
   </div>
   <!-- ACCUEIL END-->
+
   <!-- COMPETENCES BEGIN -->
   <div id="competences" class="container-fluid flex-wrap d-flex">
     <h1 class="w-100 text-center align-self-center">Compétences</h1>
     <div class="card-deck align-self-center w-100">
+
       <div class="card">
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
@@ -98,9 +116,11 @@
           <div class="list-group">
             <a class="list-group-item list-group-item-warning">HTML 5 / CSS 3</a>
             <a class="list-group-item list-group-item-warning">Responsive Web Design</a>
+            <a class="list-group-item list-group-item-warning">Bootstrap 4</a>
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166823.svg" alt="back-end-icon">Back End</div>
@@ -108,6 +128,7 @@
           <a class="list-group-item list-group-item-success">Lignes de commandes Linux</a>
         </div>
       </div>
+
       <div class="card">
         <div class="card-body text-center p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
@@ -117,6 +138,7 @@
           <a class="list-group-item list-group-item-info">Scrum Master</a>
         </div>
       </div>
+
     </div>
   </div>
   <!-- COMPETENCES END -->
@@ -127,6 +149,7 @@
       <span class="w-100 m-0 text-center align-self-center text-white">Projets</span>
     </h1>
     <div class="card-columns row-fluid px-2 text-center w-100">
+
       <div class="card col">
         <div class="card-header">
           Site vitrine StartUp Week-End à Amiens.
@@ -138,48 +161,55 @@
           <span class="bagde badge-pill badge-dark">CSS3</span>
         </div>
       </div>
+
       <div class="card col">
         <div class="card-header">
-          Projet en cours
+          Transformation cross-plateform d'un site anciennement fixe
+        </div>
+        <a href="https://la-manu-amiens-promo-3.github.io/projetLaChoraleRockBootstrap/" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="./assets/img/choraleRockBootstrapsite.png" alt="LaChoraleRock-Bootstrap">
+        <div class="card-footer">
+          <span class="bagde badge-pill badge-dark">HTML5</span>
+          <span class="bagde badge-pill badge-dark">Bootstrap 4</span>
+          <span class="bagde badge-pill badge-dark">CSS3</span>
+        </div>
+      </div>
+
+      <div class="card col">
+        <div class="card-header">
+          Projets en cours
         </div>
         <a href="https://github.com/PierreMonvoisin" target="_blank" class="stretched-link"></a>
         <div class="card-footer">
-          <span class="badge badge-pill"></span>
         </div>
       </div>
-      <!-- EN ATTENTE -->
 
+      <!-- EN ATTENTE -->
       <!-- <div class="card col">
         <div class="card-header">
-          Titre
+
         </div>
+        <a href="" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="./assets/img/" alt="">
         <div class="card-footer">
-        </div>
-      </div>
-      <div class="card col">
-        <div class="card-header">
-          Titre
-        </div>
-        <div class="card-footer">
+          <span class="badge badge-pill badge-dark"></span>
         </div>
       </div> -->
-
       <!-- EN ATTENTE -->
     </div>
   </div>
   <!-- PROJET END -->
+
   <div id="contact">
   </div>
 
-  <footer class="text-center">
-
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Politique de confidentialité</button>
-      <button type="button" class="btn btn-dark">Informations Personnelles</button>
+  <footer>
+    <div class="btn-toolbar justify-content-center pt-1">
+      <button type="button" class="btn btn-light">Politique de confidentialité</button>
+      <button type="button" class="btn btn-light mx-2">Informations Personnelles</button>
     </div>
-
-
   </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

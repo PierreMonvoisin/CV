@@ -1,4 +1,4 @@
-html, body  {
+html, body {
   max-width: 100vw;
   height: 100%;
 }
@@ -14,23 +14,52 @@ body {
   src: url(../fonts/CodeDemo-Light.otf) format("opentype");
 }
 @font-face {
-  font-family: "PantonNarrowBlack";
-  src: url(../fonts/PantonNarrowDemo-Black.otf) format("opentype");
+  font-family: "PantonBlack";
+  src: url(../fonts/PantonDemo-Black.otf) format("opentype");
 }
 @font-face {
-  font-family: "PantonNarrowLight";
-  src: url(../fonts/PantonNarrowDemo-Light.otf) format("opentype");
+  font-family: "PantonLight";
+  src: url(../fonts/PantonDemo-Light.otf) format("opentype");
 }
 /* BARRE DE NAVIGATION BEGIN */
 #NavBar {
-  max-width: 100%
+  max-width: 100%;
+  font-family: "PantonLight";
 }
-@media only screen and (max-width: 500px) {
-  #buttonNav {
+.mobile-display {
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  #NavBar label{
     display: none;
   }
+  .screen-display {
+    display: none;
+  }
+  .mobile-display {
+    display: block;
+  }
+  .mobile-display .nav-item {
+    font-size: 70%;
+    align-items: center;
+  }
+  .navbar-toggler {
+    margin: auto;
+  }
+  #NavBar {
+    margin-left: auto;
+    width: 25%;
+    padding-right: 2%;
+    padding-top: 1%;
+  }
   #lists-hidden {
-    padding-left: 0px !important;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .mobile-display .nav-item {
+    font-size: 60%;
+    align-items: center;
   }
 }
 #titre-navigation {
@@ -68,7 +97,7 @@ body {
   background-size: cover;
 }
 /* ACCUEIL END*/
-/* COMPTETENCES BEGIN*/
+/* COMPETENCES BEGIN*/
 #competences {
   height: auto;
   min-height: 500px;
@@ -84,25 +113,29 @@ body {
   font-size: 140%;
   font-weight: bolder;
 }
-/* COMPTETENCES END*/
+#competences > h1 {
+  font-family: "CodeDemoBold";
+}
+#competences .card-footer span {
+  padding: 100%;
+}
+#competences .list-group-item {
+  font-family: "PantonLight";
+}
+/* COMPETENCES END*/
 /* PROJET BEGIN*/
 #projet {
   height: auto;
   background: #484848;
   border-top: 5px solid #343a40;
 }
-#projet h1 {
+#projet > h1 {
   padding-top: 5%;
   padding-bottom: 5%;
+  font-family: "CodeDemoBold";
 }
 #projet .card-header {
   font-weight: bolder;
-}
-#competences .card-footer span {
-  padding: 100%;
-}
-.card-border-width {
-  border-width: 5px;
 }
 /* PROJET END*/
 /* CONTACT BEGIN*/
@@ -114,7 +147,10 @@ body {
 /* CONTACT END*/
 /* FOOTER BEGIN */
 footer {
-  border-top: 5px solid #343a40;
-  background: #f0f0f0;
+  border-top: 2px solid;
+  background: #343a40;
+}
+footer .btn-toolbar {
+  font-family: "CodeDemoBold";
 }
 /* FOOTER END */
