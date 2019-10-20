@@ -83,6 +83,12 @@ body {
 #titre-navigation {
   flex-wrap: nowrap;
 }
+#logo-navbar {
+  filter: brightness(0) invert(1);
+}
+#buttonNav:focus {
+  outline: 0;
+}
 #titre-navigation label {
   font-size: 125%;
   position: relative;
@@ -94,6 +100,9 @@ body {
 #lists-hidden {
   padding-left: 40px;
   padding-right: 0;
+}
+.langageFlag {
+  height: 70%;
 }
 #contact-right {
   margin: auto;
@@ -145,6 +154,7 @@ body {
 }
 #competences .list-group-item {
   font-family: "PantonLight";
+  font-weight: bold;
 }
 /* COMPETENCES END*/
 
@@ -206,6 +216,33 @@ body {
 #perso-contact {
   font-family: "PantonLight";
   font-weight: bold;
+}
+#lienUtile-box {
+  align-items: center;
+  justify-content: center;
+}
+#lienUtile-box a {
+  display: block; 
+  height: 50%;
+  width: 50%;
+}
+#lienUtile-box img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  filter: brightness(0) invert(1);
+}
+#icon-linkedin {
+  background-color: #0077B7;
+}
+#icon-github {
+  background-color: #333;
+}
+#icon-discord {
+  background-color: #7289DA;
+}
+#icon-download {
+  background-color: #28a745;
 }
 /* CONTACT END*/
 

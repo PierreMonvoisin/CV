@@ -16,7 +16,7 @@
     <nav class="navbar navbar-toggleable-md navbar-dark bg-dark p-1 shadow-lg">
       <div class="container-fluid d-flex text-center p-0" id="titre-navigation">
         <button class="navbar-toggler px-1 border-0" id="buttonNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="https://image.flaticon.com/icons/svg/148/148790.svg" alt="menu">
+          <img src="https://image.flaticon.com/icons/svg/159/159704.svg" alt="menu" id="logo-navbar">
         </button>
         <label for="buttonNav" class="m-auto text-white col-sd">Accueil</label>
         <label for="buttonNav" class="m-auto text-white col-sd">Compétences</label>
@@ -27,14 +27,21 @@
         <div class="container-fluid d-inline-flex m-0 text-center shadow-lg" id="lists-hidden">
           <!-- Acceuil Begin -->
           <div class="navbar-nav m-auto col-sd-3 p-0 screen-display">
-            <p class="nav-item m-0">
-              <a class="nav-link" href="#">Home</a>
+            <p class="nav-item p-0 m-0" id="langageButton">
+              <a class="nav-link">Langages</a>
+              <div class="btn-group btn-group-toggle mt-2" data-toggle="buttons">
+                <label class="text-center btn btn-light active">
+                  <input type="radio" name="options" autocomplete="off" checked>
+                  <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330490.svg" alt="French flag">
+                </label>
+                <label class="text-center btn btn-light">
+                  <input type="radio" name="options" autocomplete="off">
+                  <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330425.svg" alt="English flag">
+                </label>
+              </div>
             </p>
-            <p class="nav-item m-0">
-              <a class="nav-link" href="#">Link</a>
-            </p>
-            <p class="nav-item m-0">
-              <a class="nav-link disabled">Disabled</a>
+            <p class="nav-item p-0 m-0">
+              <a class="nav-link" href="#footerAncre">about</a>
             </p>
           </div>
           <!-- Accueil End -->
@@ -61,10 +68,10 @@
           <!-- Contact Begin -->
           <div class="navbar-nav ml-auto col-sd-3 p-0 screen-display" id="contact-right">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#contact">Mail</a>
+              <a class="nav-link" href="#perso-contact">Mail</a>
             </p>
             <p class="nav-item m-0">
-              <a class="nav-link" href="#contact">Perso</a>
+              <a class="nav-link" href="#perso-contact">Perso</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="https://github.com/PierreMonvoisin" target="_blank">Github</a>
@@ -228,30 +235,32 @@
               <img src="https://image.flaticon.com/icons/svg/2173/2173187.svg" alt="study icon">
               <div class="media-body">Developpeur Web Junior</div>
             </li>
-            <li class="list-group-item d-flex flex-row">
-              <img src="" alt="">
-              <div class="media-body">Single-line item with icon</div>
-            </li>
           </ul>
         </div>
 
         <div class="card pmd-card pmd-card-light bg-light border-secondary">
-          <div class="card-header">
-            <h5 class="card-title">Perso</h5>
-            <span class="card-subtitle text-muted">N'hésitez pas !</span>
+          <div class="card-header text-center">
+            <h5 class="card-title">Liens utiles</h5>
+            <span class="card-subtitle text-muted">Trouvez moi içi !</span>
           </div>
-          <div class="card-body">
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <div class="card-body d-flex flex-wrap p-0" id="lienUtile-box">
+              <a class="d-flex" href="https://www.linkedin.com/in/pierre-monvoisin-b92299194/" target="_blank" id="icon-linkedin"><img src="https://image.flaticon.com/icons/svg/408/408805.svg" alt="Linkedin icon"></a>
+              <a class="d-flex" href="https://github.com/PierreMonvoisin" target="_blank" id="icon-github"><img src="https://image.flaticon.com/icons/svg/1322/1322104.svg" alt="Github icon"></a>
+              <a class="d-flex btn border-0" data-container="body" type="button" data-toggle="popover" data-placement="left" data-content="My discord" id="icon-discord">
+                <img src="https://image.flaticon.com/icons/svg/356/356111.svg" alt="Discord icon">
+              </a>
+              <a class="d-flex" id="icon-download"><img src="https://image.flaticon.com/icons/svg/109/109717.svg" alt="Download icon"></a>
           </div>
         </div>
 
         <div class="card pmd-card pmd-card-light bg-light border-secondary">
-          <div class="card-header">
-            <h5 class="card-title">Perso</h5>
-            <span class="card-subtitle text-muted">N'hésitez pas !</span>
+          <div class="card-header text-center">
+            <h5 class="card-title">Extra</h5>
+            <span class="card-subtitle text-muted">Un petit peu plus sur moi</span>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">
+            </p>
           </div>
         </div>
 
@@ -259,7 +268,7 @@
     </div>
   </div>
   <!-- CONTACT END -->
-  <footer>
+  <footer id="footerAncre">
     <div class="btn-toolbar justify-content-center pt-1">
       <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalFooter">Mentions Légales</button>
     </div>
