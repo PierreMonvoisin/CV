@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
-<body class="container-fluid p-0">
+<body class="container-fluid p-0 scrollbar scrollbar-dark">
 
   <!-- BARRE DE NAVIGATION BEGIN-->
   <div class="fixed-top navbar-light" id="NavBar">
@@ -40,13 +40,13 @@
           <!-- Accueil End -->
           <!-- Compétences Begin -->
           <div class="navbar-nav m-auto col-sd-3 p-0 screen-display">
-            <p class="nav-item m-0">
+            <p class="nav-item p-0 m-0">
               <a class="nav-link" href="#competences">Front End</a>
             </p>
-            <p class="nav-link m-0">
+            <p class="nav-link p-0 m-0">
               <a class="nav-link" href="#competences">Back End</a>
             </p>
-            <p class="nav-item m-0">
+            <p class="nav-item p-0 m-0">
               <a class="nav-link" href="#competences">Extra</a>
             </p>
           </div>
@@ -92,7 +92,6 @@
     </nav>
   </div>
   <!-- BARRE DE NAVIGATION END-->
-
   <!-- ACCUEIL BEGIN-->
   <div id="header" class="m-0 p-0">
   </div>
@@ -142,7 +141,7 @@
   <!-- PARALLAX END -->
 
   <!-- PROJET BEGIN -->
-  <div id="projet" class="container-fluid p-1">
+  <div id="projet" class="container-fluid p-1 pb-4">
     <h1 class="row">
       <span class="w-100 m-0 text-center align-self-center text-white">Projets</span>
     </h1>
@@ -198,9 +197,68 @@
   </div>
   <!-- PROJET END -->
 
-  <div id="contact">
-  </div>
+  <!-- CONTACT BEGIN -->
+  <div id="contact" class="containe-fluid p-1">
+    <h1 class="row">
+      <span class="w-100 text-center align-self-center">Contact</span>
+    </h1>
+    <div class="row my-5 mx-2">
+      <div class="card-group shadow">
 
+        <div class="card pmd-card pmd-card-light bg-light border-secondary">
+          <div class="card-header text-center">
+            <h5 class="card-title">Informations personnelles</h5>
+            <span class="card-subtitle text-muted">N'hésitez pas !</span>
+          </div>
+
+          <ul class="list-group list-group-flush pmd-list text-center" id="perso-contact">
+            <li class="list-group-item d-flex flex-row">
+              <img src="https://image.flaticon.com/icons/svg/109/109725.svg" alt="mail icon">
+              <span class="media-body">monvoisin.pierre@gmail.com</span>
+            </li>
+            <li class="list-group-item d-flex flex-row">
+              <img src="https://image.flaticon.com/icons/svg/149/149384.svg" alt="phone icon">
+              <div class="media-body">(+33) 06.33.59.35.74</div>
+            </li>
+            <li class="list-group-item d-flex flex-row">
+              <img src="https://image.flaticon.com/icons/svg/967/967848.svg" alt="home icon">
+              <div class="media-body">Amiens, Picardie, France</div>
+            </li>
+            <li class="list-group-item d-flex flex-row">
+              <img src="https://image.flaticon.com/icons/svg/2173/2173187.svg" alt="study icon">
+              <div class="media-body">Developpeur Web Junior</div>
+            </li>
+            <li class="list-group-item d-flex flex-row">
+              <img src="" alt="">
+              <div class="media-body">Single-line item with icon</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card pmd-card pmd-card-light bg-light border-secondary">
+          <div class="card-header">
+            <h5 class="card-title">Perso</h5>
+            <span class="card-subtitle text-muted">N'hésitez pas !</span>
+          </div>
+          <div class="card-body">
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+
+        <div class="card pmd-card pmd-card-light bg-light border-secondary">
+          <div class="card-header">
+            <h5 class="card-title">Perso</h5>
+            <span class="card-subtitle text-muted">N'hésitez pas !</span>
+          </div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- CONTACT END -->
   <footer>
     <div class="btn-toolbar justify-content-center pt-1">
       <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalFooter">Mentions Légales</button>
