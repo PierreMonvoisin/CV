@@ -31,7 +31,7 @@ body {
   background-color: #343a40;
 }
 ::-webkit-scrollbar-track {
-  display: none;
+  display: block;
 }
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 3px;
@@ -92,13 +92,17 @@ body {
 #titre-navigation label {
   font-size: 125%;
   position: relative;
+  transition: transform .4s;
+}
+#titre-navigation label:hover {
+  transform: scale(1.15);
 }
 .navbar-toggler img{
   height: 30px !important;
   width: 30px !important;
 }
 #lists-hidden {
-  padding-left: 40px;
+  padding-left: 30px;
   padding-right: 0;
 }
 .langageFlag {
@@ -126,6 +130,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width: 450px) {
+  #header {
+    margin-top: 0 !important;
+  }
 }
 /* ACCUEIL END*/
 
@@ -181,6 +190,12 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: "CodeDemoBold";
+}
+#projet .card {
+  transition: transform .5s;
+}
+#projet .card:hover {
+  transform: scale(1.04);
 }
 #projet .card-header {
   font-weight: bolder;
@@ -271,6 +286,25 @@ body {
   z-index: 1;
 }
 .tooltip-body:hover .tooltip-text {
+  visibility: visible;
+}
+.tooltip-body .tooltip-text-discord {
+  visibility: hidden;
+  width: 120px;
+  background-color: #7289DA;
+  border: 1px solid black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-body:hover .tooltip-text-discord {
   visibility: visible;
 }
 /* CONTACT END*/
