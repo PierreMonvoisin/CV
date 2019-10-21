@@ -31,11 +31,11 @@
               <a class="nav-link">Langages</a>
               <div class="btn-group btn-group-toggle mt-2" data-toggle="buttons">
                 <label class="text-center btn btn-light active">
-                  <input type="radio" name="options" autocomplete="off" checked>
+                  <input type="radio" name="options" checked>
                   <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330490.svg" alt="French flag">
                 </label>
                 <label class="text-center btn btn-light">
-                  <input type="radio" name="options" autocomplete="off">
+                  <input type="radio" name="options">
                   <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330425.svg" alt="English flag">
                 </label>
               </div>
@@ -79,17 +79,17 @@
           </div>
           <!-- Contact End -->
           <!-- MOBILE SCREEN DISPLAY BEGIN -->
-          <div class="navbar-nav mx-auto text-center mobile-display">
-            <p class="nav-item m-0">
+          <div class="navbar-nav mx-auto text-black mobile-display">
+            <p class="nav-item m-0 ">
               <a class="nav-link" href="#header">Accueil</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="#competences">Compétences</a>
             </p>
-            <p class="nav-item m-0">
+            <p class="nav-item m-0 text-primary">
               <a class="nav-link" href="#projet">Projets</a>
             </p>
-            <p class="nav-item m-0">
+            <p class="nav-item m-0 text-primary">
               <a class="nav-link" href="#contact">Contact</a>
             </p>
           </div>
@@ -107,7 +107,7 @@
   <!-- COMPETENCES BEGIN -->
   <div id="competences" class="container-fluid flex-wrap d-flex">
     <h1 class="w-100 text-center align-self-center">Compétences</h1>
-    <div class="card-deck align-self-center w-100">
+    <div class="card-deck mx-auto align-self-center w-100">
 
       <div class="card shadow">
         <div class="card-body text-center text-break p-2">
@@ -218,7 +218,7 @@
             <span class="card-subtitle text-muted">N'hésitez pas !</span>
           </div>
 
-          <ul class="list-group list-group-flush pmd-list text-center" id="perso-contact">
+          <ul class="list-group list-group-flush my-auto pmd-list text-center" id="perso-contact">
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/109/109725.svg" alt="mail icon">
               <span class="media-body">monvoisin.pierre@gmail.com</span>
@@ -241,15 +241,21 @@
         <div class="card pmd-card pmd-card-light bg-light border-secondary">
           <div class="card-header text-center">
             <h5 class="card-title">Liens utiles</h5>
-            <span class="card-subtitle text-muted">Trouvez moi içi !</span>
+            <span class="card-subtitle text-muted">Trouvez moi içi :</span>
           </div>
           <div class="card-body d-flex flex-wrap p-0" id="lienUtile-box">
-              <a class="d-flex" href="https://www.linkedin.com/in/pierre-monvoisin-b92299194/" target="_blank" id="icon-linkedin"><img src="https://image.flaticon.com/icons/svg/408/408805.svg" alt="Linkedin icon"></a>
-              <a class="d-flex" href="https://github.com/PierreMonvoisin" target="_blank" id="icon-github"><img src="https://image.flaticon.com/icons/svg/1322/1322104.svg" alt="Github icon"></a>
-              <a class="d-flex btn border-0" data-container="body" type="button" data-toggle="popover" data-placement="left" data-content="My discord" id="icon-discord">
+              <a class="d-flex p-4" href="https://www.linkedin.com/in/pierre-monvoisin-b92299194/" target="_blank" id="icon-linkedin">
+                <img src="https://image.flaticon.com/icons/svg/408/408805.svg" alt="Linkedin icon">
+              </a>
+              <a class="d-flex p-4" href="https://github.com/PierreMonvoisin" target="_blank" id="icon-github">
+                <img src="https://image.flaticon.com/icons/svg/1322/1322104.svg" alt="Github icon">
+              </a>
+              <a class="d-flex border-0 p-4" id="icon-discord">
                 <img src="https://image.flaticon.com/icons/svg/356/356111.svg" alt="Discord icon">
               </a>
-              <a class="d-flex" id="icon-download"><img src="https://image.flaticon.com/icons/svg/109/109717.svg" alt="Download icon"></a>
+              <a class="d-flex p-4" id="icon-download">
+                <img src="https://image.flaticon.com/icons/svg/109/109717.svg" alt="Download icon">
+              </a>
           </div>
         </div>
 
@@ -258,9 +264,27 @@
             <h5 class="card-title">Extra</h5>
             <span class="card-subtitle text-muted">Un petit peu plus sur moi</span>
           </div>
-          <div class="card-body">
-            <p class="card-text">
-            </p>
+          <div class="card-body row text-center" id="extraIcons">
+            <div class="col-4 tooltip-body">
+              <img src="https://image.flaticon.com/icons/svg/761/761505.svg" alt="Travel">
+              <span class="tooltip-text">Voyages</span>
+            </div>
+            <div class="col-4 tooltip-body">
+              <img src="https://image.flaticon.com/icons/svg/2132/2132798.svg" alt="Rubik's Cube">
+              <span class="tooltip-text">SpeedCubing</span>
+            </div>
+            <div class="col-4 tooltip-body">
+              <img src="https://image.flaticon.com/icons/svg/164/164983.svg" alt="Space">
+              <span class="tooltip-text">Espace</span>
+            </div>
+            <div class="col-4 tooltip-body">
+              <img src="https://image.flaticon.com/icons/svg/2126/2126356.svg" alt="Artificial Intelligence">
+              <span class="tooltip-text">Intelligence Artificielle</span>
+            </div>
+            <div class="col-4 tooltip-body">
+              <img src="https://image.flaticon.com/icons/svg/141/141070.svg" alt="Retro Gaming">
+              <span class="tooltip-text">Retro Gaming</span>
+            </div>
           </div>
         </div>
 
@@ -311,7 +335,6 @@
     </div>
 
   </footer>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
