@@ -68,10 +68,10 @@
           <!-- Contact Begin -->
           <div class="navbar-nav ml-auto col-sd-3 p-0 screen-display" id="contact-right">
             <p class="nav-item m-0">
-              <a class="nav-link" href="#perso-contact">Mail</a>
+              <a class="nav-link" href="#contact">Mail</a>
             </p>
             <p class="nav-item m-0">
-              <a class="nav-link" href="#perso-contact">Perso</a>
+              <a class="nav-link" href="#contact">Perso</a>
             </p>
             <p class="nav-item m-0">
               <a class="nav-link" href="https://github.com/PierreMonvoisin" target="_blank">Github</a>
@@ -79,18 +79,26 @@
           </div>
           <!-- Contact End -->
           <!-- MOBILE SCREEN DISPLAY BEGIN -->
-          <div class="navbar-nav mx-auto text-black mobile-display">
-            <p class="nav-item m-0 ">
-              <a class="nav-link opct opacity-100" href="#header">Accueil</a>
+          <div class="navbar-nav mx-auto mobile-display" id="mobile-list">
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#header">
+                <img class="mobile-navIcon" src="https://image.flaticon.com/icons/svg/204/204292.svg" alt="Home icon">
+              </a>
             </p>
             <p class="nav-item m-0">
-              <a class="nav-link opct opacity-100" href="#competences">Compétences</a>
+              <a class="nav-link" href="#competences">
+                <img class="mobile-navIcon" src="https://image.flaticon.com/icons/svg/426/426320.svg" alt="Compétences icon">
+              </a>
             </p>
-            <p class="nav-item m-0 text-primary">
-              <a class="nav-link opct opacity-100" href="#projet">Projets</a>
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#projet">
+                <img class="mobile-navIcon" src="https://image.flaticon.com/icons/svg/1164/1164578.svg" alt="Projets icon">
+              </a>
             </p>
-            <p class="nav-item m-0 text-primary">
-              <a class="nav-link opct opacity-100" href="#contact">Contact</a>
+            <p class="nav-item m-0">
+              <a class="nav-link" href="#contact">
+                <img class="mobile-navIcon" src="https://image.flaticon.com/icons/svg/1786/1786562.svg" alt="Contact icon">
+              </a>
             </p>
           </div>
           <!-- MOBILE SCREEN DISPLAY END -->
@@ -109,14 +117,15 @@
       <h3 class="mx-auto text-center text-monospace">Pierre Monvoisin - Développeur Web et Web mobile Junior</h3>
     </div>
       <div class="jumbotron bg-dark py-5 row mx-auto">
-        <div class="col-3 py-auto">
-          <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" id="photo-presentation">
+        <div class="col-3 py-auto" id="col-3">
+          <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" id="photo-presentation" class="my-3">
         </div>
-        <div class="col text-light py-0 my-auto" id="texte-presentation">
+        <div class="col text-light text-justify py-0 my-auto" id="texte-presentation">
           <p class="lead">
-            Hello ! Bienvenu sur mon CV de Développeur Web et Web mobile junior. Originaire d’Amiens, j’étudie en ce moment à La Manu Amiens dans leur formation intensive, où je m’épanouis dans ce secteur évoluant de jour en jour.
+            Hello ! Bienvenue sur mon CV de Développeur Web et Web mobile junior. Originaire d’Amiens, j’étudie en ce moment à La Manu Amiens dans leur formation intensive, où je m’épanouis dans ce secteur évoluant de jour en jour.
           </p>
           <hr class="my-4 bg-white separator-header">
+          <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" class="mx-auto py-3" id="photo-mobile">
           <p id="descritionHeader">
             Ma curiosité et ma soif d’apprendre des expériences des autres me motivent constamment à m’investir au meilleur de mes capacités dans toutes mes collaborations. Je cherche continuellement à agrandir mes compétences dans le FrontEnd et BackEnd afin d’être le plus autonome, dynamique et efficace possible.
           </p>
@@ -175,7 +184,7 @@
     </h1>
     <div class="card-columns row-fluid px-2 text-center w-100">
 
-      <div class="card shadow col">
+      <div class="card shadow col mt-3">
         <div class="card-header">
           Site vitrine StartUp Week-End à Amiens.
         </div>
@@ -187,7 +196,7 @@
         </div>
       </div>
 
-      <div class="card shadow col">
+      <div class="card shadow col mt-3">
         <div class="card-header">
           Transformation cross-plateform d'un site anciennement fixe
         </div>
@@ -200,7 +209,7 @@
         </div>
       </div>
 
-      <div class="card shadow col">
+      <div class="card shadow col mt-3">
         <div class="card-header">
           Projets en cours
         </div>
@@ -246,15 +255,15 @@
             </li>
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/149/149384.svg" alt="phone icon">
-              <div class="media-body">(+33) 06.33.59.35.74</div>
+              <span class="media-body">(+33) 06.33.59.35.74</span>
             </li>
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/967/967848.svg" alt="home icon">
-              <div class="media-body">Amiens, Picardie, France</div>
+              <span class="media-body">Amiens, Picardie, France</span>
             </li>
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/2173/2173187.svg" alt="study icon">
-              <div class="media-body">Developpeur Web Junior</div>
+              <span class="media-body">Developpeur Web Junior</span>
             </li>
           </ul>
         </div>
