@@ -115,11 +115,13 @@ body {
   padding-right: 0;
 }
 .langageFlag {
-  width: 50%;
+  width: 50px;
+}
+#lists-hidden > .screen-display {
+  max-width: 20%;
 }
 #contact-right {
   margin: auto;
-  margin-top: 0 !important;
 }
 #projet-list {
   padding-left: 1%;
@@ -221,11 +223,21 @@ body {
 /* COMPETENCES END*/
 
 /* PARALLAX BEGIN  */
-#parallax {
+#parallaxFr {
   overflow: hidden;
   height: 200px;
   width: 100%;
   background-image: url('../img/codeParallax.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter:  drop-shadow(5px);
+}
+#parallaxEn {
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+  background-image: url('../img/parallaxCode.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,6 +387,25 @@ body {
   z-index: 1;
 }
 .tooltip-body:hover .tooltip-text-discord {
+  visibility: visible;
+}
+.tooltip-body .tooltip-text-download {
+  visibility: hidden;
+  width: 120px;
+  background-color: #28a745;
+  border: 1px solid black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-body:hover .tooltip-text-download {
   visibility: visible;
 }
 /* CONTACT END*/

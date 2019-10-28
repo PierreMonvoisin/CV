@@ -18,10 +18,10 @@
         <button class="navbar-toggler px-1 border-0" id="buttonNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <img src="https://image.flaticon.com/icons/svg/159/159704.svg" alt="menu" id="logo-navbar">
         </button>
-        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">Home</label>
-        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">Skills</label>
-        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">Projects</label>
-        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">Contact</label>
+        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">-Home-</label>
+        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">-Skills-</label>
+        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">-Projects-</label>
+        <label for="buttonNav" class="buttonTopNav m-auto text-white col-sd">-Contact-</label>
       </div>
       <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
         <div class="container-fluid d-inline-flex m-0 pr-5 text-center shadow-lg" id="lists-hidden">
@@ -29,16 +29,10 @@
           <div class="navbar-nav m-auto col-sd-3 p-0 screen-display">
             <p class="nav-item p-0 m-0">
               <a class="nav-link">Languages :</a>
-              <div class="btn-group btn-group-toggle mt-2" data-toggle="buttons">
-                <label class="text-center btn btn-light active">
-                  <input type="radio" name="options">
-                  <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330490.svg" alt="French flag">
-                </label>
-                <label class="text-center btn btn-light">
-                  <input type="radio" name="options" checked>
-                  <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330425.svg" alt="English flag">
-                </label>
-              </div>
+              <span class="mt-2 mb-0">
+                <a class="m-0 p-0 langageLink" href="index.html"><img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330490.svg" alt="French flag"></a>
+                <a class="m-0 p-0 langageLink" href="#"><img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330425.svg" alt="English flag"></a>
+              </span>
             </p>
             <p class="nav-item p-0 m-0">
               <a class="nav-link" href="#footerAncre">about</a>
@@ -66,7 +60,7 @@
           </div>
           <!-- Projets End -->
           <!-- Contact Begin -->
-          <div class="navbar-nav ml-auto col-sd-3 p-0 screen-display" id="contact-right">
+          <div class="navbar-nav m-auto col-sd-3 p-0 screen-display" id="contact-right">
             <p class="nav-item m-0">
               <a class="nav-link" href="#contact">Mail</a>
             </p>
@@ -101,10 +95,10 @@
               </a>
             </p>
             <p class="nav-item m-0 d-flex flex-inline-block">
-              <a class="m-0 p-0">
+              <a class="m-0 p-0" href="index.html">
                 <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330490.svg" alt="French flag">
               </a>
-              <a class="m-0 p-0" href="">
+              <a class="m-0 p-0" href="#">
                 <img class="langageFlag" src="https://image.flaticon.com/icons/svg/330/330425.svg" alt="English flag">
               </a>
             </p>
@@ -124,21 +118,21 @@
     <div class="row pt-3">
       <h3 class="mx-auto text-center text-monospace">Pierre Monvoisin - Junior Mobile Web and Web Developer</h3>
     </div>
-      <div class="jumbotron bg-dark py-5 row mx-auto">
-        <div class="col-3 py-auto" id="col-3">
-          <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" id="photo-presentation" class="my-3">
-        </div>
-        <div class="col text-light text-justify py-0 my-auto" id="texte-presentation">
-          <p class="lead">
-            Bonjour ! Welcome to my CV as a Junior Web and Mobile Web Developer. Originally from Amiens, I am currently studying at La Manu Amiens in their intensive training, where I thrive in this sector evolving from day to day.
-          </p>
-          <hr class="my-4 bg-white separator-header">
-          <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" class="mx-auto py-3" id="photo-mobile">
-          <p id="descritionHeader">
-            My curiosity and thirst to learn from the experiences of others constantly motivate me to invest myself to the best of my ability in all my collaborations. I am constantly looking to expand my skills in FrontEnd and BackEnd in order to be as autonomous, dynamic and efficient as possible.
-          </p>
-        </div>
+    <div class="jumbotron bg-dark py-5 row mx-auto">
+      <div class="col-3 py-auto" id="col-3">
+        <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" id="photo-presentation" class="my-3">
       </div>
+      <div class="col text-light text-justify py-0 my-auto" id="texte-presentation">
+        <p class="lead">
+          Bonjour ! Welcome to my CV as a Junior Web and Mobile Web Developer. Originally from Amiens, I am currently studying at La Manu Amiens in their intensive training, where I thrive in this sector evolving from day to day.
+        </p>
+        <hr class="my-4 bg-white separator-header">
+        <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" class="mx-auto py-3" id="photo-mobile">
+        <p id="descritionHeader">
+          My curiosity and thirst to learn from the experiences of others constantly motivate me to invest myself to the best of my ability in all my collaborations. I am constantly looking to expand my skills in FrontEnd and BackEnd in order to be as autonomous, dynamic and efficient as possible.
+        </p>
+      </div>
+    </div>
   </div>
   <!-- ACCUEIL END-->
 
@@ -182,7 +176,7 @@
   <!-- COMPETENCES END -->
 
   <!-- PARALLAX BEGIN -->
-  <div id="parallax"></div>
+  <div id="parallaxEn"></div>
   <!-- PARALLAX END -->
 
   <!-- PROJET BEGIN -->
@@ -226,7 +220,7 @@
         </div>
       </div>
 
-      <!-- EN ATTENTE -->
+      <!-- ON HOLD -->
       <!-- <div class="card shadow col">
         <div class="card-header">
 
@@ -237,7 +231,7 @@
           <span class="badge badge-pill badge-dark"></span>
         </div>
       </div> -->
-      <!-- EN ATTENTE -->
+      <!-- ON HOLD -->
     </div>
   </div>
   <!-- PROJET END -->
@@ -282,19 +276,20 @@
             <span class="card-subtitle text-muted">You can find me here :</span>
           </div>
           <div class="card-body d-flex flex-wrap p-0" id="lienUtile-box">
-              <a class="d-flex p-4" href="https://www.linkedin.com/in/pierre-monvoisin-b92299194/" target="_blank" id="icon-linkedin">
-                <img src="https://image.flaticon.com/icons/svg/408/408805.svg" alt="Linkedin icon">
-              </a>
-              <a class="d-flex p-4" href="https://github.com/PierreMonvoisin" target="_blank" id="icon-github">
-                <img src="https://image.flaticon.com/icons/svg/1322/1322104.svg" alt="Github icon">
-              </a>
-              <a class="d-flex border-0 p-4 tooltip-body" id="icon-discord">
-                <img src="https://image.flaticon.com/icons/svg/356/356111.svg" alt="Discord icon">
-                <span class="tooltip-text-discord">Pierre#1352</span>
-              </a>
-              <a class="d-flex p-4" id="icon-download">
-                <img src="https://image.flaticon.com/icons/svg/109/109717.svg" alt="Download icon">
-              </a>
+            <a class="d-flex p-4" href="https://www.linkedin.com/in/pierre-monvoisin-b92299194/" target="_blank" id="icon-linkedin">
+              <img src="https://image.flaticon.com/icons/svg/408/408805.svg" alt="Linkedin icon">
+            </a>
+            <a class="d-flex p-4" href="https://github.com/PierreMonvoisin" target="_blank" id="icon-github">
+              <img src="https://image.flaticon.com/icons/svg/1322/1322104.svg" alt="Github icon">
+            </a>
+            <a class="d-flex border-0 p-4 tooltip-body" id="icon-discord">
+              <img src="https://image.flaticon.com/icons/svg/356/356111.svg" alt="Discord icon">
+              <span class="tooltip-text-discord">Pierre#1352</span>
+            </a>
+            <a class="d-flex p-4 tooltip-body" id="icon-download">
+              <img src="https://image.flaticon.com/icons/svg/109/109717.svg" alt="Download icon">
+              <span class="tooltip-text-download">Coming soon</span>
+            </a>
           </div>
         </div>
 
@@ -333,7 +328,7 @@
   <!-- CONTACT END -->
   <footer id="footerAncre">
     <div class="btn-toolbar justify-content-center pt-1">
-      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalFooter">Mentions Légales</button>
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalFooter">Legal Informations</button>
     </div>
     <div class="modal fade" id="modalFooter">
       <div class="modal-dialog modal-dialog-scrollable">
@@ -343,26 +338,26 @@
             <button type="button" class="close" data-dismiss="modal">×</button>
           </div>
           <div class="modal-body text-center">
-            <span>Clause de non-responsabilité</span>
+            <span>Disclaimer</span>
             <hr>
             <p>
-              Si vous avez besoin de plus amples renseignements ou si vous avez des questions au sujet de la clause de non-responsabilité de notre site, n'hésitez pas à me contacter par courriel à pierre.monvoisin@gmail.com
+              If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at pierre.monvoisin@gmail.com.
             </p>
             <hr>
             <p>
-              Toutes les informations contenues sur ce site Web sont publiées de bonne foi et à titre d'information générale uniquement. *URL* ne donne aucune garantie quant à l'exhaustivité, la fiabilité et l'exactitude de ces informations. Toute action que vous entreprenez sur l'information que vous trouvez sur ce site Web, est strictement à vos propres risques. *Url* ne sera pas responsable des pertes et/ou dommages liés à l'utilisation de mon site web.
-              À partir de mon curriculum vitae, vous pouvez visiter d'autres sites Web en suivant des hyperliens vers des sites externes. Bien que je m'efforce de ne fournir que des liens de qualité vers des sites Web utiles et éthiques, je n'ai aucun contrôle sur le contenu et la nature de ces sites. Ces liens vers d'autres sites n'impliquent pas une recommandation pour l'ensemble du contenu de ces sites. Les propriétaires et le contenu du site peuvent changer sans préavis et peuvent survenir avant que nous ayons la possibilité de supprimer un lien qui a pu mal tourner.
-              Sachez également que lorsque vous quittez mon site Web, d'autres sites peuvent avoir des politiques de confidentialité et des conditions différentes qui sont indépendantes de ma volonté. Veuillez-vous assurer de vérifier les politiques de confidentialité de ces sites ainsi que leurs "Conditions d'utilisation" avant de vous engager dans toute activité commerciale ou de télécharger toute information.
+              All the information on this website is published in good faith and for general information purpose only. "pierremonvoisin.github.io/CV-PierreM" does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website, is strictly at your own risk. "pierremonvoisin.github.io/CV-PierreM" will not be liable for any losses and/or damages in connection with the use of my website.
+              From my resume, you can visit other websites by following hyperlinks to such external sites. While I strive to provide only quality links to useful and ethical websites, I have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone ‘bad'.
+              Please be also aware that when you leave my website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
             </p>
-            <span>Consentement</span>
+            <span>Consent</span>
             <hr>
             <p>
-              En utilisant mon site Web, vous consentez par la présente à cette clause de non-responsabilité et en acceptez les conditions.
+              By using my website, you hereby consent to this disclaimer and agree to its terms.
             </p>
-            <span>Mises à jour</span>
+            <span>Update</span>
             <hr>
             <p>
-              Si je mets à jour, modifie ou apporte des changements à ce document, ces changements seront affichés bien en vue ici.
+              Should I update, amend or make any changes to this document, those changes will be prominently posted here.
             </p>
           </div>
           <div class="modal-footer">
