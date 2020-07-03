@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
-
   <title>CV Pierre Monvoisin</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body class="container-fluid p-0 scrollbar scrollbar-dark">
 
@@ -113,10 +111,7 @@
   <!-- ACCUEIL BEGIN-->
   <div id="header" class="mt-5 container-fluid">
     <div class="row mx-auto" id="curriculumVitae">
-      <h1 class="mx-auto text-center">Curriculum Vitae</h1>
-    </div>
-    <div class="row pt-3">
-      <h3 class="mx-auto text-center text-monospace">Pierre Monvoisin - Développeur Web et Web mobile Junior</h3>
+      <h1 class="mx-auto text-center">Pierre Monvoisin - Développeur Web et Web mobile Junior</h1>
     </div>
     <div class="jumbotron bg-dark py-5 row mx-auto">
       <div class="col-3 py-auto" id="col-3">
@@ -128,7 +123,7 @@
         </p>
         <hr class="my-4 bg-white separator-header">
         <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" class="mx-auto py-3" id="photo-mobile">
-        <p id="descritionHeader">
+        <p class="lead" id="descritionHeader">
           Ma curiosité et ma soif d’apprendre des expériences des autres me motivent constamment à m’investir au meilleur de mes capacités dans toutes mes collaborations. Je cherche continuellement à agrandir mes compétences dans le FrontEnd et BackEnd afin d’être le plus autonome, dynamique et efficace possible.
         </p>
       </div>
@@ -139,8 +134,7 @@
   <!-- COMPETENCES BEGIN -->
   <div id="competences" class="container-fluid flex-wrap d-flex">
     <h1 class="w-100 text-center align-self-center">Compétences</h1>
-    <div class="card-deck mx-auto align-self-center w-100">
-
+    <div class="card-deck mx-auto align-self-center w-100 row">
       <div class="card shadow">
         <div class="card-body text-center text-break p-2">
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
@@ -149,6 +143,7 @@
             <a class="list-group-item list-group-item-warning">HTML 5 / CSS 3</a>
             <a class="list-group-item list-group-item-warning">Responsive Web Design</a>
             <a class="list-group-item list-group-item-warning">Bootstrap 4</a>
+            <a class="list-group-item list-group-item-warning">Maquettage</a>
           </div>
         </div>
       </div>
@@ -159,6 +154,7 @@
           <hr/>
           <a class="list-group-item list-group-item-success">Lignes de commandes Linux</a>
           <a class="list-group-item list-group-item-success">Javascript / JQuery</a>
+          <a class="list-group-item list-group-item-success">SQL / MySQL / Adminer</a>
         </div>
       </div>
 
@@ -167,19 +163,15 @@
           <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
           <hr/>
           <a class="list-group-item list-group-item-info">Anglais C1</a>
+          <a class="list-group-item list-group-item-info">Gestion de projet</a>
           <a class="list-group-item list-group-item-info">Méthode Agile</a>
-          <a class="list-group-item list-group-item-info">Scrum Master</a>
         </div>
       </div>
 
     </div>
   </div>
   <!-- COMPETENCES END -->
-
-  <!-- PARALLAX BEGIN -->
   <div id="parallaxFr"></div>
-  <!-- PARALLAX END -->
-
   <!-- PROJET BEGIN -->
   <div id="projet" class="container-fluid p-1 pb-4">
     <h1 class="row">
@@ -189,26 +181,41 @@
 
       <div class="card shadow col mt-3">
         <div class="card-header">
-          Site vitrine StartUp Week-End à Amiens.
+          Site vitrine StartUp Week-End à Amiens
         </div>
-        <a href="https://la-manu-amiens-promo-3.github.io/PierreM-SiteVitrine-StartUp/" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/startupWEsite.png" alt="Startup-Weekend-Website">
+        <a href="https://pierremonvoisin.github.io/TP-StartUpWeekend/" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="assets/img/startupWEsite.png" alt="Startup-Weekend-Website">
         <div class="card-footer">
           <span class="bagde badge-pill badge-dark badge-HTML">HTML5</span>
-          <span class="bagde badge-pill badge-dark badge-CSS">CSS3</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
 
       <div class="card shadow col mt-3">
         <div class="card-header">
-          Transformation cross-plateform d'un site anciennement fixe
+          Site d'apprentissage et d'entraînement au Rubik's Cube
         </div>
-        <a href="https://la-manu-amiens-promo-3.github.io/projetLaChoraleRockBootstrap/" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/choraleRockBootstrapsite.png" alt="LaChoraleRock-Bootstrap">
-        <div class="card-footer text-break">
-          <span class="bagde badge-pill badge-dark badge-HTML">HTML5</span>
+        <a href="https://github.com/PierreMonvoisin/Solution3.com" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="assets/img/solution3Site.png" alt="Site de rubik's cube">
+        <div class="card-footer">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-secondary">SQL</span>
+          <span class="bagde badge-pill badge-light badge-JS">Javascript</span>
           <span class="bagde badge-pill badge-dark badge-bootstrap">Bootstrap4</span>
-          <span class="bagde badge-pill badge-dark badge-CSS">CSS3</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
+        </div>
+      </div>
+
+      <div class="card shadow col mt-3">
+        <div class="card-header">
+          Création d'un site à partir d'un fichier XML
+        </div>
+        <a href="https://github.com/PierreMonvoisin/TP-XML" target="_blank" class="stretched-link"></a>
+        <div class="card-footer text-break">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-dark">XML</span>
+          <span class="bagde badge-pill badge-dark badge-bootstrap">Bootstrap4</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
 
@@ -218,16 +225,19 @@
         </div>
         <a href="https://github.com/PierreMonvoisin" target="_blank" class="stretched-link"></a>
         <div class="card-footer">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-light badge-JS">Javascript</span>
+          <span class="bagde badge-pill badge-secondary">SQL</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
 
       <!-- EN ATTENTE -->
-      <!-- <div class="card shadow col">
+      <!-- <div class="card shadow col-lg">
         <div class="card-header">
-
         </div>
         <a href="" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/" alt="">
+        <img class="card-img-bottom" src="assets/img/" alt="">
         <div class="card-footer">
           <span class="badge badge-pill badge-dark"></span>
         </div>
@@ -250,7 +260,6 @@
             <h5 class="card-title">Informations personnelles</h5>
             <span class="card-subtitle text-muted">N'hésitez pas !</span>
           </div>
-
           <ul class="list-group list-group-flush my-auto pmd-list text-center" id="perso-contact">
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/109/109725.svg" alt="mail icon" id="mailIcon">
@@ -332,7 +341,7 @@
       <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalFooter">Mentions Légales</button>
     </div>
     <div class="modal fade" id="modalFooter">
-      <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <span class="modal-title">Mentions Légales</span>
@@ -364,11 +373,9 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-dark m-auto" data-dismiss="modal">× Fermer</button>
           </div>
-
         </div>
       </div>
     </div>
-
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
