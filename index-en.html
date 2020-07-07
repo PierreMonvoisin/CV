@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
   <title>Resume Pierre Monvoisin</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body class="container-fluid p-0 scrollbar scrollbar-dark">
 
@@ -113,10 +111,7 @@
   <!-- ACCUEIL BEGIN-->
   <div id="header" class="mt-5 container-fluid">
     <div class="row mx-auto" id="curriculumVitae">
-      <h1 class="mx-auto text-center">Curriculum Vitae</h1>
-    </div>
-    <div class="row pt-3">
-      <h3 class="mx-auto text-center text-monospace">Pierre Monvoisin - Junior Mobile Web and Web Developer</h3>
+      <h1 class="mx-auto text-center">Pierre Monvoisin - Junior Mobile Web and Web Developer</h1>
     </div>
     <div class="jumbotron bg-dark py-5 row mx-auto">
       <div class="col-3 py-auto" id="col-3">
@@ -128,7 +123,7 @@
         </p>
         <hr class="my-4 bg-white separator-header">
         <img src="https://image.flaticon.com/icons/svg/126/126461.svg" alt="Photo perso" class="mx-auto py-3" id="photo-mobile">
-        <p id="descritionHeader">
+        <p id="descritionHeader" class="lead">
           My curiosity and thirst to learn from the experiences of others constantly motivate me to invest myself to the best of my ability in all my collaborations. I am constantly looking to expand my skills in FrontEnd and BackEnd in order to be as autonomous, dynamic and efficient as possible.
         </p>
       </div>
@@ -139,39 +134,44 @@
   <!-- COMPETENCES BEGIN -->
   <div id="competences" class="container-fluid flex-wrap d-flex">
     <h1 class="w-100 text-center align-self-center">Skills</h1>
-    <div class="card-deck mx-auto align-self-center w-100">
-
-      <div class="card shadow">
-        <div class="card-body text-center text-break p-2">
-          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
-          <hr/>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-warning">HTML 5 / CSS 3</a>
-            <a class="list-group-item list-group-item-warning">Responsive Web Design</a>
-            <a class="list-group-item list-group-item-warning">Bootstrap 4</a>
+    <div class="mx-auto w-100">
+      <div class="row">
+        <div class="card shadow col-lg-4 col-md-6">
+          <div class="card-body text-center text-break p-2">
+            <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166874.svg" alt="front-end-icon">Front End</div>
+            <hr/>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-warning">HTML 5 / CSS 3</a>
+              <a class="list-group-item list-group-item-warning">Responsive Web Design</a>
+              <a class="list-group-item list-group-item-warning">Bootstrap 4</a>
+              <a class="list-group-item list-group-item-warning">Web Mockup</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="card shadow">
-        <div class="card-body text-center p-2">
-          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166823.svg" alt="back-end-icon">Back End</div>
-          <hr/>
-          <a class="list-group-item list-group-item-success">Linux command lines</a>
-          <a class="list-group-item list-group-item-success">Javascript / JQuery</a>
+        <div class="card shadow col-lg-4 col-md-6">
+          <div class="card-body text-center p-2">
+            <div class="card-title"><img src="https://image.flaticon.com/icons/svg/2166/2166823.svg" alt="back-end-icon">Back End</div>
+            <hr/>
+            <a class="list-group-item list-group-item-success">Linux command lines</a>
+            <a class="list-group-item list-group-item-success">Javascript / JQuery</a>
+            <a class="list-group-item list-group-item-success">PHP / POO</a>
+            <a class="list-group-item list-group-item-success">SQL / MySQL / Adminer</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card shadow">
-        <div class="card-body text-center p-2">
-          <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
-          <hr/>
-          <a class="list-group-item list-group-item-info">English C1</a>
-          <a class="list-group-item list-group-item-info">Agile method</a>
-          <a class="list-group-item list-group-item-info">Scrum Master</a>
+        <div class="card shadow mx-auto col-lg-4 col-md-6">
+          <div class="card-body text-center p-2">
+            <div class="card-title"><img src="https://image.flaticon.com/icons/svg/942/942752.svg" alt="extra-icon">Extra</div>
+            <hr/>
+            <a class="list-group-item list-group-item-info">English C1</a>
+            <a class="list-group-item list-group-item-info">Native French speaker</a>
+            <a class="list-group-item list-group-item-info">project management</a>
+            <a class="list-group-item list-group-item-info">Agile method</a>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
   <!-- COMPETENCES END -->
@@ -185,54 +185,60 @@
     <h1 class="row">
       <span class="w-100 m-0 text-center align-self-center text-white">Projects</span>
     </h1>
-    <div class="card-columns row-fluid px-2 text-center w-100">
+    <div class="card-columns px-2 text-center w-100">
 
-      <div class="card shadow col mt-3">
+      <div class="card shadow mt-3">
         <div class="card-header">
           Website showcase StartUp Week-End in Amiens.
         </div>
-        <a href="https://la-manu-amiens-promo-3.github.io/PierreM-SiteVitrine-StartUp/" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/startupWEsite.png" alt="Startup-Weekend-Website">
+        <a href="https://pierremonvoisin.github.io/TP-StartUpWeekend/" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="assets/img/startupWEsite.png" alt="Startup-Weekend-Website">
         <div class="card-footer">
           <span class="bagde badge-pill badge-dark badge-HTML">HTML5</span>
-          <span class="bagde badge-pill badge-dark badge-CSS">CSS3</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
 
-      <div class="card shadow col mt-3">
+      <div class="card shadow mt-3">
         <div class="card-header">
-          Cross-platform transformation of a formerly fixed site
+          Rubik's cube learning and training website
         </div>
-        <a href="https://la-manu-amiens-promo-3.github.io/projetLaChoraleRockBootstrap/" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/choraleRockBootstrapsite.png" alt="LaChoraleRock-Bootstrap">
-        <div class="card-footer text-break">
-          <span class="bagde badge-pill badge-dark badge-HTML">HTML5</span>
+        <a href="https://github.com/PierreMonvoisin/Solution3.com" target="_blank" class="stretched-link"></a>
+        <img class="card-img-bottom" src="assets/img/solution3Site.png" alt="Rubik's cube website">
+        <div class="card-footer">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-secondary">SQL</span>
+          <span class="bagde badge-pill badge-light badge-JS">Javascript</span>
           <span class="bagde badge-pill badge-dark badge-bootstrap">Bootstrap4</span>
-          <span class="bagde badge-pill badge-dark badge-CSS">CSS3</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
+        </div>
+      </div>
+
+      <div class="card shadow mt-3">
+        <div class="card-header">
+          Website creation from an XML file
+        </div>
+        <a href="https://github.com/PierreMonvoisin/TP-XML" target="_blank" class="stretched-link"></a>
+        <div class="card-footer text-break">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-dark">XML</span>
+          <span class="bagde badge-pill badge-dark badge-bootstrap">Bootstrap4</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
 
       <div class="card shadow col mt-3">
         <div class="card-header">
-          Ongoing work
+          Ongoing projects
         </div>
         <a href="https://github.com/PierreMonvoisin" target="_blank" class="stretched-link"></a>
         <div class="card-footer">
+          <span class="bagde badge-pill badge-dark badge-PHP">PHP</span>
+          <span class="bagde badge-pill badge-light badge-JS">Javascript</span>
+          <span class="bagde badge-pill badge-secondary">SQL</span>
+          <span class="bagde badge-pill badge-dark badge-CSS">CSS</span>
         </div>
       </div>
-
-      <!-- ON HOLD -->
-      <!-- <div class="card shadow col">
-        <div class="card-header">
-
-        </div>
-        <a href="" target="_blank" class="stretched-link"></a>
-        <img class="card-img-bottom" src="./assets/img/" alt="">
-        <div class="card-footer">
-          <span class="badge badge-pill badge-dark"></span>
-        </div>
-      </div> -->
-      <!-- ON HOLD -->
     </div>
   </div>
   <!-- PROJET END -->
@@ -265,8 +271,8 @@
               <span class="media-body">Amiens, Picardie, France</span>
             </li>
             <li class="list-group-item d-flex flex-row">
-              <img src="https://image.flaticon.com/icons/svg/2173/2173187.svg" alt="study icon">
-              <span class="media-body">Junior Web Developer</span>
+              <img src="https://image.flaticon.com/icons/svg/846/846296.svg" alt="car icon">
+              <span class="media-body">Driver's permit and car</span>
             </li>
           </ul>
         </div>
@@ -368,7 +374,6 @@
         </div>
       </div>
     </div>
-
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
