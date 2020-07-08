@@ -308,7 +308,7 @@ html {
 }
 @media only screen and (max-width: 1020px) {
   .card-group {
-    flex-flow: column;
+    flex-flow: column-reverse;
   }
   #perso-contact span {
     font-size: 150%;
