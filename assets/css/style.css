@@ -423,6 +423,44 @@ html {
 .tooltip-body:hover .tooltip-text-download {
   visibility: visible;
 }
+.tooltip-body .tooltip-text-linkedin {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0077B7;
+  border: 1px solid black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-body:hover .tooltip-text-linkedin {
+  visibility: visible;
+}
+.tooltip-body .tooltip-text-github {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  border: 1px solid black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-body:hover .tooltip-text-github {
+  visibility: visible;
+}
 /* CONTACT END*/
 
 /* FOOTER BEGIN */
