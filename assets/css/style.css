@@ -392,6 +392,11 @@ html {
     width: 70%;
   }
 }
+@media only screen and (max-width: 600px) {
+  #extraIcons img {
+    width: 80%;
+  }
+}
 .tooltip-body {
   position: relative;
   display: inline-block;
