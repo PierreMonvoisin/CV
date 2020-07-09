@@ -174,11 +174,16 @@ html {
   display: none;
 }
 @media only screen and (max-width: 992px) {
+  #header {
+    height: auto;
+    min-height: 0;
+  }
   #col-3, #photo-presentation {
     display: none;
   }
   #photo-mobile {
     display: block;
+    width: 65%;
   }
   #descriptionHeader {
     margin-left: 0;
@@ -306,6 +311,10 @@ html {
   width: 35px;
   height: 35px;
 }
+#perso-contact span {
+  line-height: 35px;
+  font-size: 120%;
+}
 @media only screen and (max-width: 1020px) {
   .card-group {
     flex-flow: column-reverse;
@@ -377,6 +386,11 @@ html {
 #extraIcons img {
   width: 80%;
   height: 80%;
+}
+@media only screen and (max-width: 1020px) {
+  #extraIcons img {
+    width: 70%;
+  }
 }
 .tooltip-body {
   position: relative;
