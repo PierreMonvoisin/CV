@@ -157,7 +157,7 @@ html {
   margin-top: 4%;
 }
 #header .jumbotron {
-  opacity: 0.85;
+  opacity: 0.90;
 }
 @media only screen and (max-width: 450px) {
   #header {
@@ -168,7 +168,7 @@ html {
   }
 }
 #photo-presentation {
-  min-height: 150px;
+  height: 45vh;
 }
 #photo-mobile {
   display: none;
@@ -183,7 +183,7 @@ html {
   }
   #photo-mobile {
     display: block;
-    width: 65%;
+    height: 45vh;
   }
   #descriptionHeader {
     margin-left: 0;
