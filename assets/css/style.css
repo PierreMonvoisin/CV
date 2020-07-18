@@ -311,7 +311,7 @@ html {
   width: 35px;
   height: 35px;
 }
-#perso-contact span {
+#perso-contact span, #perso-contact a {
   line-height: 35px;
   font-size: 120%;
 }
