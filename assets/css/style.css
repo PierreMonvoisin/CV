@@ -199,7 +199,7 @@ html {
 
 /* COMPETENCES BEGIN*/
 #competences {
-  overflow: hidden;
+  overflow-x: hidden;
   height: auto;
   background: #f0f0f0;
   border-top: 15px solid #343a40;
@@ -230,6 +230,71 @@ html {
 }
 /* COMPETENCES END*/
 
+/* PARCOURS BEGIN */
+#parcours {
+  overflow: hidden;
+  height: auto;
+  background: #484848;
+  border-top: 5px solid #343a40;
+}
+#parcours:not(h1) {
+  transform: scale(1.1);
+}
+#parcours > h1 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: "CodeDemoBold";
+}
+#legend {
+  border-radius: 0.25rem;
+  margin-bottom: 4%;
+  transform: scale(1.1);
+}
+#legend span {
+  border-radius: 0.25rem;
+}
+.list-group-item {
+  border: 0;
+}
+.item_course {
+  border-right: 20px solid #E15F1A;
+}
+.item_experience {
+  border-right: 20px solid #20639B;
+}
+.item_perso {
+  border-right: 20px solid #3C8C3F;
+}
+.item_hobbie {
+  border-right: 20px solid #E6C60D;
+}
+.item_date {
+  border-radius: 0.25rem;
+}
+.item_date_ongoing {
+  border-radius: 0.25rem;
+  background-color: #E57373;
+}
+.item_title {
+  text-align: center;
+  font-size: 150%;
+}
+@media only screen and (max-width: 768px) {
+  #parcours:not(h1) {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .item_course {
+    border-right: 0;
+    border-bottom: 20px solid #E15F1A;
+  }
+  .item_experience {
+    border-right: 0;
+    border-bottom: 20px solid #20639B;
+  }
+}
+/* PARCOURS END */
 /* PARALLAX BEGIN  */
 #parallaxFr {
   overflow: hidden;
