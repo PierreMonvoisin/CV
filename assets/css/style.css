@@ -237,9 +237,6 @@ html {
   background: #484848;
   border-top: 5px solid #343a40;
 }
-#parcours:not(h1) {
-  transform: scale(1.1);
-}
 #parcours > h1 {
   padding-top: 5%;
   padding-bottom: 3%;
@@ -253,8 +250,9 @@ html {
 #legend span {
   border-radius: 0.25rem;
 }
-.list-group-item {
-  border: 0;
+#parcours .list-group-item {
+  border-top: 0;
+  border-bottom: 0;
 }
 .item_course {
   border-right: 20px solid #E15F1A;
@@ -269,9 +267,11 @@ html {
   border-right: 20px solid #E6C60D;
 }
 .item_date {
+  /* Vertical center align */
   border-radius: 0.25rem;
 }
 .item_date_ongoing {
+  font-weight: bold;
   border-radius: 0.25rem;
   background-color: #E57373;
 }
@@ -279,9 +279,13 @@ html {
   text-align: center;
   font-size: 150%;
 }
-@media only screen and (max-width: 768px) {
-  #parcours:not(h1) {
-    transform: scale(1);
+@media only screen and (max-width: 992px) {
+  #legend {
+    flex-wrap: wrap;
+  }
+  #legend > div {
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -295,28 +299,27 @@ html {
   #legend {
     flex-flow: column;
   }
-  #legend > div {
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
   .item_title {
     font-size: 110%;
   }
+  /* #parcours .list-group-item {
+    border-bottom: auto;
+  } */
   .item_course {
     border-right: 0;
-    border-bottom: 20px solid #E15F1A;
+    border-bottom: 20px solid #E15F1A !important;
   }
   .item_experience {
     border-right: 0;
-    border-bottom: 20px solid #20639B;
+    border-bottom: 20px solid #20639B !important;
   }
   .item_perso {
     border-right: 0;
-    border-bottom: 20px solid #3C8C3F;
+    border-bottom: 20px solid #3C8C3F !important;
   }
   .item_hobbie {
     border-right: 0;
-    border-bottom: 20px solid #E6C60D;
+    border-bottom: 20px solid #E6C60D !important;
   }
 }
 /* PARCOURS END */
