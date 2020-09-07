@@ -268,9 +268,16 @@ html {
 }
 .item_date {
   /* Vertical center align */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 0.25rem;
 }
 .item_date_ongoing {
+  /* Vertical center align */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   border-radius: 0.25rem;
   background-color: #E57373;
