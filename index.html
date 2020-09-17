@@ -189,18 +189,19 @@
       <span class="w-100 m-0 text-center align-self-center text-white">Parcours</span>
     </h1>
     <div id="parcoursBody">
-      <div id="legend" class="col-md-7 col-8 mx-auto d-flex bg-secondary py-3">
+      <div id="legend" class="col-md-7 col-8 mx-auto d-flex flex-wrap bg-secondary py-3 shadow">
+        <h3 class="col-12 text-center text-white pb-3"><u>Légende :</u></h3>
         <div class="col mx-xl-0 mx-2 px-0 text-center">
-          <span style="border-right: 10px solid #E15F1A;" class="bg-light py-2 px-4">Formations</span>
+          <span style="border-right: 10px solid #E15F1A;" class="text-white border-left border-top border-bottom border-left-white border-top-white border-bottom-white py-2 px-4">Formations</span>
         </div>
         <div class="col mx-xl-0 mx-2 px-0 text-center">
-          <span style="border-right: 10px solid #20639B;" class="bg-light py-2 px-4">Expériences</span>
+          <span style="border-right: 10px solid #20639B;" class="text-white border-left border-top border-bottom border-left-white border-top-white border-bottom-white py-2 px-4">Expériences</span>
         </div>
         <div class="col mx-xl-0 mx-2 px-0 text-center">
-          <span style="border-right: 10px solid #3C8C3F;" class="bg-light py-2 px-4">Projets</span>
+          <span style="border-right: 10px solid #3C8C3F;" class="text-white border-left border-top border-bottom border-left-white border-top-white border-bottom-white py-2 px-4">Projets</span>
         </div>
         <div class="col mx-xl-0 mx-2 px-0 text-center">
-          <span style="border-right: 10px solid #E6C60D;" class="bg-light py-2 px-4">Loisirs</span>
+          <span style="border-right: 10px solid #E6C60D;" class="text-white border-left border-top border-bottom border-left-white border-top-white border-bottom-white py-2 px-4">Loisirs</span>
         </div>
       </div>
       <!-- 2020 -->
@@ -209,25 +210,61 @@
       </h3>
       <hr class="bg-white col-xl-8 col-md-10 my-2">
       <!-- OpenClassrooms - Dev App PHP -->
-      <div class="row my-3">
+      <div data-target="#OC_DevPHP" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_course">
           <span class="py-2 px-3 mr-3 item_date_ongoing text-center">En cours</span>
           <span class="m-auto item_title">Formation Développeur d'Application PHP / Symfony avec OpenClassrooms</span>
         </div>
+        <div id="OC_DevPHP" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-lg-8 col-12 d-flex flex-wrap text-justify">
+              <p class="m-0">Afin de continuer de développer mes compétences, mon autonomie ainsi que mon expérience en entreprise, j’ai choisi d’intégrer une formation par internet et en alternance avec OpenClassrooms. Je suis actuellement encore dans la phase de recherche d’entreprise, mais une fois que mes efforts auront payé, je pourrais directement commencer ma formation de deux ans de Développeur d’applications PHP / Symfony en contrat d’apprentissage.</p>
+            </div>
+            <div class="col-lg-4 col-12 d-flex">
+              <img src="https://lareclame-scanbook.s3.amazonaws.com/dropenclassroomsmission1548693825.jpg" alt="Logo OpenClassrooms" class="w-100 mx-auto rounded_corner shadow img_logo_OpenC">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
       <!-- La Manu - DWWM -->
-      <div class="row my-3">
+      <div data-target="#LM_DWWM" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_course">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">Du 23 Septembre 2019 au 13 Mars 2020</span>
           <span class="m-auto item_title">Formation Développeur Web et Web mobile à La Manu Amiens</span>
         </div>
+        <div id="LM_DWWM" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-lg-6 col-12 d-flex text-justify">
+              <p class="m-auto">Pour mettre en route ma reconversion scolaire dans un secteur innovant et dans lequel je suis passionné, j’ai décidé de rejoindre le centre de formation La Manu à Amiens afin de suivre une formation de Développeur Web et Web Mobile. Ce diplôme RNCP de niveau II m’a non seulement apporté un titre de Bac +2 en seulement six mois, mais aussi de nombreuses compétences dans la gestion de projet ; je maîtrise maintenant plusieurs langages de développement et de programmation, ainsi que la réalisation de projet de A à Z.</p>
+            </div>
+            <div class="col-lg-6 col-12 d-flex p-lg-0 px-0 pt-3 pb-1">
+              <img src="assets/img/Certificat_LaManu_DevWeb.jpg" alt="Diplôme de Développeur Web Mobile" class="w-100 mx-auto rounded_corner img_lamanu_devweb">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
       <!-- TP E-commerce -->
-      <div class="row my-3">
+      <div data-target="#TP_Eshop" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_perso">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">Février 2020</span>
           <span class="m-auto item_title">Création d'un site de E-commerce fictif avec panier et wishlist</span>
         </div>
+        <div id="TP_Eshop" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div id="TP_GrainesPhotoAccueil" class="col-12 d-flex flex-wrap px-lg-5 px-sm-3 px-0 mx-auto">
+              <img src="assets/img/GrainesDinterieurs_Accueil.jpg" alt="page d'accueil" class="w-100 mx-auto rounded_corner shadow">
+            </div>
+            <div class="col-lg-9 col-sm-10 my-4 mx-auto d-flex flex-wrap text-justify">
+              <p class="m-auto">Ma formation de Développeur Web Mobile m’a permis de réaliser un grand nombre de projets avec différentes équipes hétérogènes, l’un deux est ce site : l'Atelier des Graines d'Intérieurs. Réalisé avec HTML, CSS, Bootstrap et Javascript / Jquery, nous avons créé ce site de E-commerce fictif en s'inspirant d’une entreprise réelle, et en s'efforçant donc de respecter la charte graphique et les attentes de ce client très concret.<br>Ce site est accessible sur mon Github, ou en cliquant sur les photos.</p>
+            </div>
+            <div id="TP_GrainesPhotoPanier" class="col-12 d-flex flex-wrap px-lg-5 px-sm-3 px-0 mx-auto">
+              <img src="assets/img/GrainesDinterieurs_Panier.jpg" alt="panier" class="w-100 mx-auto rounded_corner shadow">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
       <!-- Atelier Pôle Emploi -->
       <div class="row my-3">
@@ -243,25 +280,61 @@
       </h3>
       <hr class="bg-white col-xl-8 col-md-10 my-2">
       <!-- Start-Up Weekend -->
-      <div class="row my-3">
+      <div data-target="#StartUpWE" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_experience">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">Du 8 au 10 Novembre 2019</span>
           <span class="m-auto item_title">Start-Up Weekend Valenciennes Creativity</span>
         </div>
+        <div id="StartUpWE" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-sm-7 col-12 d-flex flex-wrap text-justify">
+              <p class="m-auto">Durant ma formation de Développeur Web et Web Mobile, j’ai eu la chance d’être invité à participer à un Start-Up Weekend à Valenciennes. J’y ai participé avec mes collègues de formation ; 54 heures de travail intense pendant lesquelles nous nous sommes réunis en équipe pour développer un projet d’entreprise en partant de zéro.</p>
+              <p class="mx-auto mt-0">Mon équipe et moi avons réussi à décrocher la seconde place face à sept équipes, et nous en avons gardé de merveilleux souvenirs, ainsi que de belles nouvelles connexions.</p>
+            </div>
+            <div class="col-sm-5 col-12 d-flex">
+              <img src="assets/img/StartUpWE_Team.jpg" alt="photo de présentation de l'équipe" class="m-auto rounded_corner shadow img_startup_valenc">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
       <!-- CV -->
-      <div class="row my-3">
+      <div data-target="#CV_info" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_perso">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">Octobre 2019</span>
           <span class="m-auto item_title">Réalisation et mise en ligne de ce CV informatique</span>
         </div>
+        <div id="CV_info" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-12 d-flex flex-wrap text-justify">
+              <p class="m-auto">Ce CV sur lequel vous êtes était un de mes premiers projets en tant que Développeur Web. J’avais la mise en forme en tête depuis un moment et, après l’avoir réalisé puis amélioré, j’en suis très fier ! Responsive, dynamique, publié sur GitHub Pages avec un URL personnalisé grâce à Google Domains, et entièrement créé par moi, je le partage souvent car il me sert de portfolio et de carte de présentation.</p>
+            </div>
+            <div class="col-12 d-flex img_container_CV">
+              <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ocx3yMTJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/a12tj8n6facp0kt0xb0n.jpeg" alt="Github Pages logo" class="d-block mr-sm-auto">
+              <img src="https://www.weblife.fr/wp-content/uploads/2015/01/google-domains-logo.png" alt="Google Domains logo" class="d-block ml-sm-auto">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
-      <!-- Compétition Rubik's Cube Valenciennes -->
-      <div class="row my-3">
+      <!-- Compétition Rubik's Cube Reims -->
+      <div data-target="#Cube_reims" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_hobbie">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">7 et 8 Septembre 2019</span>
-          <span class="m-auto item_title">Compétitions de Speedcubing à Valenciennes</span>
+          <span class="m-auto item_title">Compétitions de Speedcubing à Reims</span>
         </div>
+        <div id="Cube_reims" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-sm-5 col-12 d-flex">
+              <img src="assets/img/compReims.jpg" alt="Feuille de résultats" class="d-block m-auto rounded_corner img_comp_reims">
+            </div>
+            <div class="col-sm-7 col-12 d-flex flex-wrap text-justify">
+              <p class="m-auto">Après plus d’un an d’entraînement, j’ai décidé de me rendre à une compétition officielle de résolution de Rubik’s Cube à Reims. Mon but n’était que de découvrir le côté officiel et “ professionnel “ de cette discipline que je pratique activement, ainsi que de tester mes compétences dans un autre environnement, plus enrichissant, mais stressant.</p>
+              <p class="mx-auto mt-0">Je suis satisfait de ma performance à cette compétition, j’en garde un magnifique souvenir et souhaite activement reproduire cette expérience.</p>
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
 
       <!-- 2018 -->
@@ -270,11 +343,22 @@
       </h3>
       <hr class="bg-white col-xl-8 col-md-10 my-2">
       <!-- Service Civique -->
-      <div class="row my-3">
+      <div data-target="#Service_civique" data-toggle="collapse" class="row my-3 d-flex flex-wrap">
         <div class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto d-flex item_experience">
           <span class="bg-dark text-white py-2 px-3 mr-3 item_date text-center">Du 13 Mars au 11 Septembre 2018</span>
-          <span class="m-auto item_title">Service Civique au Collège/Lycée hôtellier St Martin Amiens</span>
+          <span class="m-auto item_title">Service Civique au Collège/Lycée hôtelier St Martin Amiens</span>
         </div>
+        <div id="Service_civique" class="list-group-item list-group-item-white col-xl-7 col-md-9 mx-auto collapse">
+          <div class="row d-flex">
+            <div class="col-lg-8 col-12 text-justify">
+              <p class="m-0">Du 13 Mars au 11 Septembre 2018, j'ai participé à un Service Civique, mission " Aide aux devoirs ", dans l’établissement St Martin à Amiens. Je me suis assuré de l’animation, de la surveillance et du soutien scolaire d'élèves entre 11 et 18 ans, de la 6éme à la Terminale Hôtelière.<br>J’ai beaucoup apprécié cette expérience ; le contact avec les élèves, la réalisation d’un dossier bilan et toutes connexions que j'ai acquises durant cette période m'ont permis de me construire et de gagner en confiance en moi pour mes futurs projets.</p>
+            </div>
+            <div class="col-lg-4 col-sm-0 col-12 d-flex">
+              <img src="https://www.flaticon.com/svg/static/icons/svg/569/569025.svg" alt="batiment d'école" class="m-auto img_school_building">
+            </div>
+          </div>
+        </div>
+        <btn class="btn btn-block btn-light col-xl-7 col-md-9 mx-auto py-0 btn_collapse">▼</btn>
       </div>
 
       <!-- 2017 -->
@@ -297,7 +381,6 @@
         </div>
       </div>
     </div>
-
   </div>
   <!-- PARCOURS END -->
   <div id="parallaxFr"></div>
@@ -307,7 +390,6 @@
       <span class="w-100 m-0 text-center align-self-center text-white">Projets</span>
     </h1>
     <div class="card-columns px-2 text-center w-100">
-
       <div class="card shadow mt-3">
         <div class="card-header">
           Site d'apprentissage et d'entraînement au Rubik's Cube
@@ -382,13 +464,13 @@
           <ul class="list-group list-group-flush my-auto pmd-list text-center" id="perso-contact">
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/109/109725.svg" alt="mail icon" id="mailIcon">
-              <a href="mailto:monvoisin.pierre@gmail.com" class="media-body">monvoisin.pierre<wbr>@gmail.com</a>
+              <a class="media-body">monvoisin.pierre<wbr>@gmail.com</a>
             </li>
             <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/149/149384.svg" alt="phone icon">
               <a href="tel:+330633593574" class="media-body">(+33) 06.33.59.35.74</a>
             </li>
-            <li class="list-group-item d-flex flex-row">
+              <li class="list-group-item d-flex flex-row">
               <img src="https://image.flaticon.com/icons/svg/967/967848.svg" alt="home icon">
               <span class="media-body">Amiens, Picardie, France</span>
             </li>
@@ -460,5 +542,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Personnal Script -->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

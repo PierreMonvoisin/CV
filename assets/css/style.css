@@ -250,6 +250,15 @@ html {
 #legend span {
   border-radius: 0.25rem;
 }
+#TP_GrainesPhotoAccueil:hover, #TP_GrainesPhotoPanier:hover {
+  cursor: pointer;
+}
+.rounded_corner {
+  border-radius: 0.25rem;
+}
+.btn_collapse {
+  font-size: 125%;
+}
 #parcours .list-group-item {
   border-top: 0;
   border-bottom: 0;
@@ -286,6 +295,22 @@ html {
   text-align: center;
   font-size: 150%;
 }
+/* Images */
+.img_lamanu_devweb, .img_logo_OpenC {
+  object-fit: contain;
+}
+.img_startup_valenc {
+  width: 100%
+}
+.img_container_CV img {
+  width: 50%;
+}
+.img_comp_reims {
+  width: 100%;
+}
+.img_school_building {
+  width: 50%;
+}
 @media only screen and (max-width: 992px) {
   #legend {
     flex-wrap: wrap;
@@ -293,6 +318,13 @@ html {
   #legend > div {
     margin-top: 3%;
     margin-bottom: 3%;
+  }
+  /* Images */
+  .img_logo_OpenC {
+    margin-top: 3%;
+  }
+  .img_school_building {
+    display: none;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -309,9 +341,6 @@ html {
   .item_title {
     font-size: 110%;
   }
-  /* #parcours .list-group-item {
-    border-bottom: auto;
-  } */
   .item_course {
     border-right: 0;
     border-bottom: 20px solid #E15F1A !important;
@@ -327,6 +356,29 @@ html {
   .item_hobbie {
     border-right: 0;
     border-bottom: 20px solid #E6C60D !important;
+  }
+  /* Images */
+  .img_startup_valenc {
+    width: 85%;
+    margin-bottom: 3% !important;
+  }
+  #StartUpWE > div {
+    flex-direction: column-reverse;
+  }
+  .img_container_CV {
+    flex-wrap: wrap;
+  }
+  .img_container_CV img {
+    width: 90%;
+    margin: auto;
+  }
+  .img_comp_reims {
+    width: 80%;
+    padding-bottom: 3%;
+  }
+  .img_school_building {
+    display: block;
+    width: 40%;
   }
 }
 /* PARCOURS END */
