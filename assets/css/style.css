@@ -318,8 +318,10 @@ and (max-device-width : 667px) {
   }
 }
 
-.img_lamanu_devweb, .img_logo_OpenC {
+.img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
   object-fit: contain;
+  width: 100%;
+  max-height: 350px;
 }
 .img_startup_valenc {
   width: 100%
