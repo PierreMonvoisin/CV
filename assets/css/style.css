@@ -296,6 +296,26 @@ html {
   font-size: 150%;
 }
 /* Images */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .img_lamanu_devweb, .img_logo_OpenC {
+    object-fit: contain;
+  }
+  .img_startup_valenc {
+    width: 100%
+  }
+  .img_container_CV img {
+    width: 50%;
+  }
+  .img_comp_reims {
+    width: 100%;
+  }
+  .img_school_building {
+    width: 50%;
+  }
+}
+
 .img_lamanu_devweb, .img_logo_OpenC {
   object-fit: contain;
 }
