@@ -296,13 +296,28 @@ html {
   font-size: 150%;
 }
 /* Images */
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  .img_lamanu_devweb, .img_logo_OpenC {
+.img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
+  object-fit: contain;
+  width: 100%;
+  max-height: 300px;
+}
+.img_startup_valenc {
+  width: 100%
+}
+.img_container_CV img {
+  width: 50%;
+}
+.img_comp_reims {
+  width: 100%;
+}
+.img_school_building {
+  width: 50%;
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  .img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
     object-fit: contain;
     width: 100%;
-    height: auto;
+    max-height: 300px;
   }
   .img_startup_valenc {
     width: 100%
@@ -316,24 +331,6 @@ and (max-device-width : 667px) {
   .img_school_building {
     width: 50%;
   }
-}
-
-.img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
-  object-fit: contain;
-  width: 100%;
-  max-height: 350px;
-}
-.img_startup_valenc {
-  width: 100%
-}
-.img_container_CV img {
-  width: 50%;
-}
-.img_comp_reims {
-  width: 100%;
-}
-.img_school_building {
-  width: 50%;
 }
 @media only screen and (max-width: 992px) {
   #legend {
