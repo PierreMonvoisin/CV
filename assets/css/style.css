@@ -301,6 +301,8 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .img_lamanu_devweb, .img_logo_OpenC {
     object-fit: contain;
+    width: 100%;
+    height: auto;
   }
   .img_startup_valenc {
     width: 100%
