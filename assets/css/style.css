@@ -299,10 +299,9 @@ html {
 .img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
   object-fit: contain;
   width: 100%;
-  max-height: 300px;
 }
 .img_startup_valenc {
-  width: 100%
+  width: 100%;
 }
 .img_container_CV img {
   width: 50%;
@@ -313,25 +312,6 @@ html {
 .img_school_building {
   width: 50%;
 }
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-  .img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines {
-    object-fit: contain;
-    width: 100%;
-    max-height: 300px;
-  }
-  .img_startup_valenc {
-    width: 100%
-  }
-  .img_container_CV img {
-    width: 50%;
-  }
-  .img_comp_reims {
-    width: 100%;
-  }
-  .img_school_building {
-    width: 50%;
-  }
-}
 @media only screen and (max-width: 992px) {
   #legend {
     flex-wrap: wrap;
@@ -341,8 +321,14 @@ html {
     margin-bottom: 3%;
   }
   /* Images */
+  .img_lamanu_devweb, .img_logo_OpenC, .img_TP_graines, .img_CV {
+    max-height: 300px;
+  }
   .img_logo_OpenC {
     margin-top: 3%;
+  }
+  .img_startup_valenc, .img_comp_reims {
+    max-height: 400px;
   }
   .img_school_building {
     display: none;
@@ -400,6 +386,7 @@ html {
   .img_school_building {
     display: block;
     width: 40%;
+    max-height: 300px;
   }
 }
 /* PARCOURS END */
